@@ -9,6 +9,7 @@ def main():
     print("Manim-AI is starting...")
     print("Run specific tests or functions by importing them directly.")
     print("Example: python -m tests.toc_agent_test")
+    print("Example: python -m tests.script_agent_test")
 
 
 if __name__ == "__main__":
