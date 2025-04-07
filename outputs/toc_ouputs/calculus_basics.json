@@ -1,0 +1,119 @@
+{
+  "main_topic": "Calculus: Limits, Derivatives, and Integrals with Applications to Physics",
+  "description": "A comprehensive introduction to the fundamental concepts of calculus, focusing on limits, derivatives, and integrals, and their applications in physics.",
+  "total_subtopics": 8,
+  "difficulty": "intermediate",
+  "audience": "first-year undergraduate students",
+  "subtopics": [
+    {
+      "title": "Introduction to Limits",
+      "order_index": 1,
+      "estimated_duration": 2.0,
+      "difficulty": "beginner",
+      "prerequisites": [],
+      "key_points": [
+        "Definition of a limit",
+        "Understanding limit notation",
+        "Basic properties of limits"
+      ]
+    },
+    {
+      "title": "Calculating Limits Algebraically",
+      "order_index": 2,
+      "estimated_duration": 3.0,
+      "difficulty": "intermediate",
+      "prerequisites": [
+        "Introduction to Limits"
+      ],
+      "key_points": [
+        "Techniques for calculating limits",
+        "Limit laws",
+        "Examples of limit calculations"
+      ]
+    },
+    {
+      "title": "Understanding Continuity",
+      "order_index": 3,
+      "estimated_duration": 2.0,
+      "difficulty": "beginner",
+      "prerequisites": [
+        "Calculating Limits Algebraically"
+      ],
+      "key_points": [
+        "Definition of continuity",
+        "Types of discontinuities",
+        "Relationship between limits and continuity"
+      ]
+    },
+    {
+      "title": "Introduction to Derivatives",
+      "order_index": 4,
+      "estimated_duration": 3.0,
+      "difficulty": "intermediate",
+      "prerequisites": [
+        "Understanding Continuity"
+      ],
+      "key_points": [
+        "Definition of a derivative",
+        "Geometric interpretation of derivatives",
+        "Basic derivative notation"
+      ]
+    },
+    {
+      "title": "Rules of Differentiation",
+      "order_index": 5,
+      "estimated_duration": 4.0,
+      "difficulty": "intermediate",
+      "prerequisites": [
+        "Introduction to Derivatives"
+      ],
+      "key_points": [
+        "Power rule",
+        "Product and quotient rules",
+        "Chain rule"
+      ]
+    },
+    {
+      "title": "Applications of Derivatives in Physics",
+      "order_index": 6,
+      "estimated_duration": 3.0,
+      "difficulty": "intermediate",
+      "prerequisites": [
+        "Rules of Differentiation"
+      ],
+      "key_points": [
+        "Velocity as a derivative of position",
+        "Acceleration as a derivative of velocity",
+        "Real-world examples in physics"
+      ]
+    },
+    {
+      "title": "Introduction to Integrals",
+      "order_index": 7,
+      "estimated_duration": 4.0,
+      "difficulty": "intermediate",
+      "prerequisites": [
+        "Applications of Derivatives in Physics"
+      ],
+      "key_points": [
+        "Definition of an integral",
+        "Understanding definite and indefinite integrals",
+        "Basic integral notation"
+      ]
+    },
+    {
+      "title": "Applications of Integrals in Physics",
+      "order_index": 8,
+      "estimated_duration": 5.0,
+      "difficulty": "advanced",
+      "prerequisites": [
+        "Introduction to Integrals"
+      ],
+      "key_points": [
+        "Area under a curve",
+        "Work done by a force",
+        "Real-world applications in physics"
+      ]
+    }
+  ]
+}

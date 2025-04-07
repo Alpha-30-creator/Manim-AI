@@ -1,0 +1,105 @@
+{
+  "main_topic": "Probability Theory: Random Variables, Distributions, and Expectation",
+  "description": "An introduction to the fundamental concepts of probability theory, focusing on random variables, their distributions, and the concept of expectation.",
+  "total_subtopics": 7,
+  "difficulty": "intermediate",
+  "audience": "undergraduate statistics students",
+  "subtopics": [
+    {
+      "title": "Introduction to Probability Theory",
+      "order_index": 1,
+      "estimated_duration": 2.0,
+      "difficulty": "beginner",
+      "prerequisites": [],
+      "key_points": [
+        "Definition of probability",
+        "Basic terminology (experiment, outcome, event)",
+        "Importance of probability in statistics"
+      ]
+    },
+    {
+      "title": "Understanding Random Variables",
+      "order_index": 2,
+      "estimated_duration": 3.0,
+      "difficulty": "intermediate",
+      "prerequisites": [
+        "Introduction to Probability Theory"
+      ],
+      "key_points": [
+        "Definition of random variables",
+        "Types of random variables (discrete vs continuous)",
+        "Examples of random variables"
+      ]
+    },
+    {
+      "title": "Probability Distributions",
+      "order_index": 3,
+      "estimated_duration": 4.0,
+      "difficulty": "intermediate",
+      "prerequisites": [
+        "Understanding Random Variables"
+      ],
+      "key_points": [
+        "Definition of probability distribution",
+        "Key characteristics of distributions (mean, variance)",
+        "Common distributions (Binomial, Normal, Poisson)"
+      ]
+    },
+    {
+      "title": "Cumulative Distribution Function (CDF)",
+      "order_index": 4,
+      "estimated_duration": 3.0,
+      "difficulty": "intermediate",
+      "prerequisites": [
+        "Probability Distributions"
+      ],
+      "key_points": [
+        "Definition of CDF",
+        "Relationship between PDF and CDF",
+        "Examples of calculating CDF for common distributions"
+      ]
+    },
+    {
+      "title": "Expectation and Its Properties",
+      "order_index": 5,
+      "estimated_duration": 4.0,
+      "difficulty": "intermediate",
+      "prerequisites": [
+        "Cumulative Distribution Function (CDF)"
+      ],
+      "key_points": [
+        "Definition of expectation",
+        "Properties of expectation (linearity, etc.)",
+        "Examples of calculating expectation for discrete and continuous variables"
+      ]
+    },
+    {
+      "title": "Variance and Standard Deviation",
+      "order_index": 6,
+      "estimated_duration": 3.0,
+      "difficulty": "intermediate",
+      "prerequisites": [
+        "Expectation and Its Properties"
+      ],
+      "key_points": [
+        "Definition of variance and standard deviation",
+        "Relationship between variance and expectation",
+        "Examples of calculating variance and standard deviation"
+      ]
+    },
+    {
+      "title": "Applications of Expectation in Real Life",
+      "order_index": 7,
+      "estimated_duration": 2.0,
+      "difficulty": "beginner",
+      "prerequisites": [
+        "Variance and Standard Deviation"
+      ],
+      "key_points": [
+        "Real-life applications of expectation",
+        "Importance in decision making",
+        "Examples from finance and insurance"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "main_topic": "Number Theory: Prime Numbers, Modular Arithmetic, and Cryptography Applications",
+  "description": "An exploration of prime numbers, modular arithmetic, and their applications in cryptography, designed for advanced high school students.",
+  "total_subtopics": 7,
+  "difficulty": "advanced",
+  "audience": "advanced high school students",
+  "subtopics": [
+    {
+      "title": "Introduction to Prime Numbers",
+      "order_index": 1,
+      "estimated_duration": 2.0,
+      "difficulty": "beginner",
+      "prerequisites": [],
+      "key_points": [
+        "Definition of prime numbers",
+        "Examples of prime numbers",
+        "Importance of prime numbers in mathematics"
+      ]
+    },
+    {
+      "title": "Properties of Prime Numbers",
+      "order_index": 2,
+      "estimated_duration": 3.0,
+      "difficulty": "intermediate",
+      "prerequisites": [
+        "Introduction to Prime Numbers"
+      ],
+      "key_points": [
+        "Unique factorization theorem",
+        "Distribution of prime numbers",
+        "Sieve of Eratosthenes"
+      ]
+    },
+    {
+      "title": "Introduction to Modular Arithmetic",
+      "order_index": 3,
+      "estimated_duration": 2.0,
+      "difficulty": "beginner",
+      "prerequisites": [
+        "Properties of Prime Numbers"
+      ],
+      "key_points": [
+        "Definition of modular arithmetic",
+        "Basic operations in modular arithmetic",
+        "Examples of modular calculations"
+      ]
+    },
+    {
+      "title": "Properties of Modular Arithmetic",
+      "order_index": 4,
+      "estimated_duration": 3.0,
+      "difficulty": "intermediate",
+      "prerequisites": [
+        "Introduction to Modular Arithmetic"
+      ],
+      "key_points": [
+        "Congruence relations",
+        "Modular inverses",
+        "Applications in number theory"
+      ]
+    },
+    {
+      "title": "Introduction to Cryptography",
+      "order_index": 5,
+      "estimated_duration": 3.0,
+      "difficulty": "intermediate",
+      "prerequisites": [
+        "Properties of Modular Arithmetic"
+      ],
+      "key_points": [
+        "Definition of cryptography",
+        "Historical context and importance",
+        "Basic concepts of encryption and decryption"
+      ]
+    },
+    {
+      "title": "Public Key Cryptography and Prime Numbers",
+      "order_index": 6,
+      "estimated_duration": 4.0,
+      "difficulty": "advanced",
+      "prerequisites": [
+        "Introduction to Cryptography"
+      ],
+      "key_points": [
+        "Role of prime numbers in RSA algorithm",
+        "Key generation process",
+        "Security implications of prime factorization"
+      ]
+    },
+    {
+      "title": "Applications of Modular Arithmetic in Cryptography",
+      "order_index": 7,
+      "estimated_duration": 5.0,
+      "difficulty": "advanced",
+      "prerequisites": [
+        "Public Key Cryptography and Prime Numbers"
+      ],
+      "key_points": [
+        "Use of modular arithmetic in encryption algorithms",
+        "Digital signatures and verification",
+        "Real-world applications of cryptography"
+      ]
+    }
+  ]
+}

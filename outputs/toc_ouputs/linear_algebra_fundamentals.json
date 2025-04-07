@@ -1,0 +1,120 @@
+{
+  "main_topic": "Linear Algebra Fundamentals: Vectors, Matrices, Transformations, and Eigenvalues",
+  "description": "An introduction to the essential concepts of linear algebra, focusing on vectors, matrices, transformations, and eigenvalues, tailored for high school students.",
+  "total_subtopics": 8,
+  "difficulty": "beginner",
+  "audience": "high school students",
+  "subtopics": [
+    {
+      "title": "Introduction to Vectors",
+      "order_index": 1,
+      "estimated_duration": 2.0,
+      "difficulty": "beginner",
+      "prerequisites": [],
+      "key_points": [
+        "Definition of vectors",
+        "Representation of vectors in 2D and 3D",
+        "Vector notation and terminology"
+      ]
+    },
+    {
+      "title": "Vector Operations",
+      "order_index": 2,
+      "estimated_duration": 3.0,
+      "difficulty": "beginner",
+      "prerequisites": [
+        "Introduction to Vectors"
+      ],
+      "key_points": [
+        "Addition and subtraction of vectors",
+        "Scalar multiplication",
+        "Dot product of vectors"
+      ]
+    },
+    {
+      "title": "Introduction to Matrices",
+      "order_index": 3,
+      "estimated_duration": 2.0,
+      "difficulty": "beginner",
+      "prerequisites": [
+        "Introduction to Vectors"
+      ],
+      "key_points": [
+        "Definition of matrices",
+        "Matrix notation and terminology",
+        "Types of matrices (row, column, square)"
+      ]
+    },
+    {
+      "title": "Matrix Operations",
+      "order_index": 4,
+      "estimated_duration": 3.0,
+      "difficulty": "intermediate",
+      "prerequisites": [
+        "Introduction to Matrices"
+      ],
+      "key_points": [
+        "Addition and subtraction of matrices",
+        "Scalar multiplication of matrices",
+        "Matrix multiplication basics"
+      ]
+    },
+    {
+      "title": "Determinants and Inverses",
+      "order_index": 5,
+      "estimated_duration": 4.0,
+      "difficulty": "intermediate",
+      "prerequisites": [
+        "Matrix Operations"
+      ],
+      "key_points": [
+        "Definition of determinants",
+        "How to calculate the determinant of a 2x2 matrix",
+        "Concept of matrix inverses"
+      ]
+    },
+    {
+      "title": "Linear Transformations",
+      "order_index": 6,
+      "estimated_duration": 5.0,
+      "difficulty": "intermediate",
+      "prerequisites": [
+        "Matrix Operations",
+        "Determinants and Inverses"
+      ],
+      "key_points": [
+        "Definition of linear transformations",
+        "Matrix representation of transformations",
+        "Examples of transformations in geometry"
+      ]
+    },
+    {
+      "title": "Eigenvalues and Eigenvectors",
+      "order_index": 7,
+      "estimated_duration": 5.0,
+      "difficulty": "advanced",
+      "prerequisites": [
+        "Linear Transformations"
+      ],
+      "key_points": [
+        "Definition of eigenvalues and eigenvectors",
+        "How to find eigenvalues and eigenvectors of a matrix",
+        "Applications of eigenvalues in real-world problems"
+      ]
+    },
+    {
+      "title": "Applications of Linear Algebra",
+      "order_index": 8,
+      "estimated_duration": 3.0,
+      "difficulty": "intermediate",
+      "prerequisites": [
+        "Eigenvalues and Eigenvectors"
+      ],
+      "key_points": [
+        "Real-world applications of vectors and matrices",
+        "Use of linear algebra in computer graphics",
+        "Importance of eigenvalues in data science"
+      ]
+    }
+  ]
+}
