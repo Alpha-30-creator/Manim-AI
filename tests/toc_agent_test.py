@@ -44,10 +44,11 @@ def count_tokens(text, model="gpt-4o-mini"):
 def save_to_json(toc, filename):
     """Save the TOC to a JSON file."""
     # Create outputs directory if it doesn't exist
-    os.makedirs("outputs", exist_ok=True)
+    output_dir = "outputs/toc_outputs"
+    os.makedirs(output_dir, exist_ok=True)
     
     # Convert Pydantic model to dict and save as JSON
-    filepath = os.path.join("outputs", filename)
+    filepath = os.path.join(output_dir, filename)
     with open(filepath, "w") as f:
         json.dump(toc.dict(), f, indent=2)
     

@@ -1,0 +1,66 @@
+{
+  "subtopic_title": "Introduction to Vectors",
+  "total_duration_minutes": 2.5,
+  "target_audience": "high school students",
+  "difficulty": "beginner",
+  "content_blocks": [
+    {
+      "type": "conceptual explanation",
+      "title": "What is a Vector?",
+      "content": "A vector is a mathematical object that has both magnitude and direction. Unlike a scalar, which only has magnitude, vectors are used to represent quantities that have direction, such as velocity, force, and displacement.",
+      "duration": 0.5,
+      "math_references": null
+    },
+    {
+      "type": "visual/geometric interpretation",
+      "title": "2D and 3D Representation",
+      "content": "Vectors can be represented graphically as arrows. In two dimensions, a vector can be represented as an arrow starting from the origin (0,0) to a point (x,y). In three dimensions, it extends from the origin (0,0,0) to a point (x,y,z).",
+      "duration": 0.5,
+      "math_references": null
+    },
+    {
+      "type": "step-by-step procedures",
+      "title": "Vector Notation",
+      "content": "Vectors are typically denoted using bold letters or arrows above letters. For example, a vector \\( \\mathbf{v} \\) can be represented in 2D as \\( \\mathbf{v} = \\begin{pmatrix} x \\ y \\end{pmatrix} \\) and in 3D as \\( \\mathbf{v} = \\begin{pmatrix} x \\ y \\ z \\end{pmatrix} \\).",
+      "duration": 0.5,
+      "math_references": null
+    },
+    {
+      "type": "examples and counterexamples",
+      "title": "Basic Operations with Vectors",
+      "content": "1. **Vector Addition**: If \\( \\mathbf{u} = \\begin{pmatrix} u_1 \\ u_2 \\end{pmatrix} \\) and \\( \\mathbf{v} = \\begin{pmatrix} v_1 \\ v_2 \\end{pmatrix} \\), then \\( \\mathbf{u} + \\mathbf{v} = \\begin{pmatrix} u_1 + v_1 \\ u_2 + v_2 \\end{pmatrix} \\).  \n2. **Scalar Multiplication**: If \\( k \\) is a scalar and \\( \\mathbf{v} = \\begin{pmatrix} v_1 \\ v_2 \\end{pmatrix} \\), then \\( k \\mathbf{v} = \\begin{pmatrix} k v_1 \\ k v_2 \\end{pmatrix} \\).",
+      "duration": 0.5,
+      "math_references": null
+    }
+  ],
+  "visual_elements": [
+    {
+      "description": "Graphical representation of a vector in 2D and 3D",
+      "timing": "0:30",
+      "details": "Show an arrow from the origin to a point (x,y) in a 2D coordinate system, and then show an arrow from the origin to a point (x,y,z) in a 3D coordinate system."
+    },
+    {
+      "description": "Vector notation examples",
+      "timing": "1:00",
+      "details": "Display the vector \\( \\mathbf{v} \\) in both 2D and 3D forms, highlighting the components clearly."
+    },
+    {
+      "description": "Illustration of vector addition and scalar multiplication",
+      "timing": "1:30",
+      "details": "Show two vectors \\( \\mathbf{u} \\) and \\( \\mathbf{v} \\) being added graphically, and then demonstrate scalar multiplication with a vector being stretched or shrunk."
+    }
+  ],
+  "equations": [
+    "\\\\mathbf{v} = \\\\begin{pmatrix} x \\\\ y \\\\end{pmatrix}",
+    "\\\\mathbf{v} = \\\\begin{pmatrix} x \\\\ y \\\\ z \\\\end{pmatrix}",
+    "\\\\mathbf{u} + \\\\mathbf{v} = \\\\begin{pmatrix} u_1 + v_1 \\\\ u_2 + v_2 \\\\end{pmatrix}",
+    "k \\\\mathbf{v} = \\\\begin{pmatrix} k v_1 \\\\ k v_2 \\\\end{pmatrix}"
+  ],
+  "key_concepts": [
+    "Definition of vectors",
+    "Representation in 2D and 3D",
+    "Vector notation",
+    "Vector addition",
+    "Scalar multiplication"
+  ]
+}
