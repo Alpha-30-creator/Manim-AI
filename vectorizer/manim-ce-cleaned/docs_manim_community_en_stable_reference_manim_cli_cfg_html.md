@@ -1,0 +1,1 @@
+# cfg [¶](https://docs.manim.community/en/stable/reference/manim.cli.cfg.html\#module-manim.cli.cfg "Link to this heading")

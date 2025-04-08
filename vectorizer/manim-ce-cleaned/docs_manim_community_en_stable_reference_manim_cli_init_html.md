@@ -1,0 +1,1 @@
+# init [¶](https://docs.manim.community/en/stable/reference/manim.cli.init.html\#module-manim.cli.init "Link to this heading")

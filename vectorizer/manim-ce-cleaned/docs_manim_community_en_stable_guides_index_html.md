@@ -1,0 +1,22 @@
+# Thematic Guides [¶](https://docs.manim.community/en/stable/guides/index.html\#thematic-guides "Link to this heading")
+
+Table of Contents
+
+- [Configuration](https://docs.manim.community/en/stable/guides/configuration.html)
+  - [Command-line arguments](https://docs.manim.community/en/stable/guides/configuration.html#command-line-arguments)
+  - [The ManimConfig class](https://docs.manim.community/en/stable/guides/configuration.html#the-manimconfig-class)
+  - [The config files](https://docs.manim.community/en/stable/guides/configuration.html#the-config-files)
+  - [Order of operations](https://docs.manim.community/en/stable/guides/configuration.html#order-of-operations)
+  - [A list of all config options](https://docs.manim.community/en/stable/guides/configuration.html#a-list-of-all-config-options)
+  - [Accessing CLI command options](https://docs.manim.community/en/stable/guides/configuration.html#accessing-cli-command-options)
+- [A deep dive into Manim’s internals](https://docs.manim.community/en/stable/guides/deep_dive.html)
+  - [Introduction](https://docs.manim.community/en/stable/guides/deep_dive.html#introduction)
+  - [Overview](https://docs.manim.community/en/stable/guides/deep_dive.html#overview)
+  - [Preliminaries](https://docs.manim.community/en/stable/guides/deep_dive.html#preliminaries)
+  - [Mobject Initialization](https://docs.manim.community/en/stable/guides/deep_dive.html#mobject-initialization)
+  - [Animations and the Render Loop](https://docs.manim.community/en/stable/guides/deep_dive.html#animations-and-the-render-loop)
+- [Rendering Text and Formulas](https://docs.manim.community/en/stable/guides/using_text.html)
+  - [Text Without LaTeX](https://docs.manim.community/en/stable/guides/using_text.html#text-without-latex)
+  - [Text With LaTeX](https://docs.manim.community/en/stable/guides/using_text.html#text-with-latex)
+- [Adding Voiceovers to Videos](https://docs.manim.community/en/stable/guides/add_voiceovers.html)
+  - [Basic Usage](https://docs.manim.community/en/stable/guides/add_voiceovers.html#basic-usage)

@@ -1,0 +1,1 @@
+# checkhealth [¶](https://docs.manim.community/en/stable/reference/manim.cli.checkhealth.html\#module-manim.cli.checkhealth "Link to this heading")
