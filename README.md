@@ -22,6 +22,7 @@ The project is in active development, with the following components implemented:
 - ✅ **Azure OpenAI Integration**: Configured to work with different model deployments
 - ✅ **Token Usage Monitoring**: Tracks API usage for better resource management
 - ✅ **Time-Optimized Content Planning**: Designs subtopics to fit specific time constraints
+- ✅ **Manim Documentation Vectorization**: Converts Manim documentation into embeddings for RAG applications
 
 ## Project Structure
 
@@ -38,6 +39,11 @@ Manim-AI/
 │   ├── __init__.py          # Test package initialization
 │   ├── toc_agent_test.py    # Tests for TOC generation agent
 │   └── script_agent_test.py # Tests for script generation agent
+├── vectorizer/              # Documentation vectorization tools
+│   ├── utils.py             # Utility functions for vectorization
+│   ├── vectorizer.py        # Main vectorization script
+│   ├── manim-ce-cleaned/    # Processed Manim CE documentation
+│   └── manim-voiceover-cleaned/ # Processed Manim Voiceover documentation
 ├── docs/                    # Manim documentation and reference materials
 ├── outputs/                 # Generated outputs and artifacts
 │   ├── toc_outputs/         # Generated TOC JSON files
@@ -66,6 +72,15 @@ Manim-AI/
 - Adapts content to match target audience and difficulty level
 - Manages timing to fit within specified duration constraints
 
+### Manim Documentation Vectorization
+
+- Processes cleaned Manim documentation from CE and Voiceover libraries
+- Intelligently chunks documentation by headings while preserving code blocks
+- Extracts rich metadata including document type, title, parent headings, and code elements
+- Generates high-quality embeddings using Azure OpenAI
+- Uploads documents and metadata to Pinecone vector database for RAG applications
+- Provides robust error handling and resumable processing
+
 ### Time-Optimized Content Design
 
 - Intelligently structures content to fit specific time constraints
@@ -81,6 +96,7 @@ Manim-AI/
 
 - Python 3.8+
 - Azure OpenAI API access with appropriate model deployments
+- Pinecone API key (for vectorization functionality)
 - LangChain and related libraries
 
 ### Installation Steps
@@ -102,11 +118,15 @@ Manim-AI/
    pip install -r requirements.txt
    ```
 
-4. Configure Azure OpenAI credentials:
-   - Create a `.env` file or edit `models/azure.py` with your Azure credentials:
-     - API key
-     - Endpoint URL
-     - Model deployments
+4. Configure API keys in the `.env` file:
+   ```
+   # Azure OpenAI
+   AZURE_OPENAI_API_KEY=your_azure_openai_key
+   AZURE_OPENAI_ENDPOINT=your_azure_endpoint
+   
+   # Pinecone
+   PINECONE_API_KEY=your_pinecone_api_key
+   ```
 
 ## Usage
 
@@ -129,6 +149,26 @@ python -m tests.script_agent_test
 ```
 
 This will generate detailed educational scripts for a sample mathematical subtopic and save it as a JSON file in the `outputs/script_outputs/` directory.
+
+### Running the Documentation Vectorization
+
+Process the Manim documentation and upload it to Pinecone:
+
+```
+python -m vectorizer.vectorizer
+```
+
+Additional options:
+```
+# Process only Manim CE documentation
+python -m vectorizer.vectorizer --only manim-ce
+
+# Process only Manim Voiceover documentation
+python -m vectorizer.vectorizer --only manim-voiceover
+
+# Skip already processed files (resume from last state)
+python -m vectorizer.vectorizer --skip-existing
+```
 
 ### Sample Output
 
@@ -209,12 +249,17 @@ The Script agent generates detailed educational content like this:
 
 ### Next Development Phases
 
-1. **Manim Code Generation** (Next Priority)
-   - Develop system to translate script requirements into Manim animation code
-   - Ensure proper visualization of mathematical concepts
-   - Create modular, reusable animation components
+1. **RAG-Enhanced Code Generation** (Next Priority)
+   - Leverage vectorized Manim documentation for context-aware code generation
+   - Implement retrieval-augmented generation for more accurate animation code
+   - Ensure proper visualization of mathematical concepts with Manim best practices
 
-2. **Rendering Pipeline**
+2. **Manim Code Generation**
+   - Develop system to translate script requirements into Manim animation code
+   - Create modular, reusable animation components
+   - Add code validation and testing
+
+3. **Rendering Pipeline**
    - Build end-to-end pipeline from topic to rendered video
    - Add audio narration capabilities (text-to-speech)
    - Implement quality assurance checks

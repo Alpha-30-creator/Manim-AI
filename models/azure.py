@@ -15,8 +15,8 @@ GPT4_MINI_DEPLOYMENT = "gpt-4o-mini"
 GPT4_API_VERSION = "2024-05-01-preview"
 O3_MINI_DEPLOYMENT = "o3-mini"
 O3_API_VERSION = "2024-12-01-preview"
-EMBEDDING_DEPLOYMENT = "Embedding-Large"
-EMBEDDING_API_VERSION = "2023-05-15"
+EMBEDDING_DEPLOYMENT = "APSAP-test-text-embedding-3-large"
+EMBEDDING_API_VERSION = "2024-12-01-preview"
 
 class GPT4Mini:
     """Class to load GPT-4 Mini model for TOC and script generation."""
@@ -53,5 +53,6 @@ class Embedding:
             azure_endpoint=AZURE_OPENAI_ENDPOINT,
             api_key=AZURE_OPENAI_API_KEY,
             api_version=EMBEDDING_API_VERSION,
-            azure_deployment=EMBEDDING_DEPLOYMENT
+            azure_deployment=EMBEDDING_DEPLOYMENT,
+            dimensions=1024  # Match Pinecone index dimension
         )
