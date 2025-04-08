@@ -1,6 +1,6 @@
 {
   "main_topic": "Linear Algebra Fundamentals: Vectors, Matrices, Transformations, and Eigenvalues",
-  "description": "An introduction to the essential concepts of linear algebra, focusing on vectors, matrices, transformations, and eigenvalues, tailored for high school students.",
+  "description": "An introductory series on the fundamental concepts of linear algebra, focusing on vectors, matrices, transformations, and eigenvalues, tailored for high school students.",
   "total_subtopics": 8,
   "difficulty": "beginner",
   "audience": "high school students",
@@ -12,9 +12,9 @@
       "difficulty": "beginner",
       "prerequisites": [],
       "key_points": [
-        "Definition of vectors",
+        "Definition of a vector",
         "Representation of vectors in 2D and 3D",
-        "Vector notation and terminology"
+        "Types of vectors: zero vector, unit vector"
       ]
     },
     {
@@ -40,9 +40,9 @@
         "Introduction to Vectors"
       ],
       "key_points": [
-        "Definition of matrices",
-        "Matrix notation and terminology",
-        "Types of matrices (row, column, square)"
+        "Definition of a matrix",
+        "Types of matrices: row, column, square",
+        "Matrix notation and dimensions"
       ]
     },
     {
@@ -68,9 +68,9 @@
         "Matrix Operations"
       ],
       "key_points": [
-        "Definition of determinants",
-        "How to calculate the determinant of a 2x2 matrix",
-        "Concept of matrix inverses"
+        "Definition of the determinant",
+        "Calculating the determinant of 2x2 and 3x3 matrices",
+        "Finding the inverse of a matrix"
       ]
     },
     {
@@ -89,31 +89,32 @@
       ]
     },
     {
-      "title": "Eigenvalues and Eigenvectors",
+      "title": "Introduction to Eigenvalues and Eigenvectors",
       "order_index": 7,
-      "estimated_duration": 5.0,
+      "estimated_duration": 4.0,
       "difficulty": "advanced",
       "prerequisites": [
+        "Determinants and Inverses",
         "Linear Transformations"
       ],
       "key_points": [
         "Definition of eigenvalues and eigenvectors",
-        "How to find eigenvalues and eigenvectors of a matrix",
-        "Applications of eigenvalues in real-world problems"
+        "Characteristic polynomial",
+        "Finding eigenvalues and eigenvectors for 2x2 matrices"
       ]
     },
     {
-      "title": "Applications of Linear Algebra",
+      "title": "Applications of Eigenvalues",
       "order_index": 8,
       "estimated_duration": 3.0,
-      "difficulty": "intermediate",
+      "difficulty": "advanced",
       "prerequisites": [
-        "Eigenvalues and Eigenvectors"
+        "Introduction to Eigenvalues and Eigenvectors"
       ],
       "key_points": [
-        "Real-world applications of vectors and matrices",
-        "Use of linear algebra in computer graphics",
-        "Importance of eigenvalues in data science"
+        "Real-world applications of eigenvalues",
+        "Role in systems of differential equations",
+        "Importance in data science and machine learning"
       ]
     }
   ]
