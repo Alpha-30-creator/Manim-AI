@@ -1,0 +1,520 @@
+c:\Work\Manim-AI\.venv\Lib\site-packages\pydub\utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+  warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+'sox' is not recognized as an internal or external command,
+operable program or batch file.
+
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):   0%|          | 0/720 [00:00<?, ?it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):   1%|1         | 8/720 [00:00<00:09, 71.84it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):   2%|2         | 16/720 [00:00<00:10, 70.36it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):   3%|3         | 24/720 [00:00<00:09, 73.59it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):   4%|4         | 32/720 [00:00<00:09, 75.13it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):   6%|5         | 40/720 [00:00<00:09, 73.74it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):   7%|6         | 48/720 [00:00<00:09, 71.96it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):   8%|7         | 56/720 [00:00<00:09, 72.48it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):   9%|8         | 64/720 [00:00<00:08, 73.68it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  10%|#         | 72/720 [00:00<00:08, 72.69it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  11%|#1        | 80/720 [00:01<00:09, 70.96it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  12%|#2        | 88/720 [00:01<00:09, 68.50it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  13%|#3        | 95/720 [00:01<00:09, 65.72it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  14%|#4        | 102/720 [00:01<00:09, 64.51it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  15%|#5        | 109/720 [00:01<00:09, 64.89it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  16%|#6        | 116/720 [00:01<00:09, 63.22it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  17%|#7        | 123/720 [00:01<00:09, 62.91it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  18%|#8        | 130/720 [00:01<00:09, 62.13it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  19%|#9        | 137/720 [00:02<00:09, 61.75it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  20%|##        | 144/720 [00:02<00:09, 62.24it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  21%|##        | 151/720 [00:02<00:09, 60.93it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  22%|##1       | 158/720 [00:02<00:09, 60.98it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  23%|##2       | 165/720 [00:02<00:09, 60.36it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  24%|##3       | 172/720 [00:02<00:09, 59.54it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  25%|##4       | 178/720 [00:02<00:09, 58.02it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  26%|##5       | 184/720 [00:02<00:09, 57.47it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  27%|##6       | 191/720 [00:02<00:09, 58.21it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  28%|##7       | 198/720 [00:03<00:08, 59.14it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  28%|##8       | 204/720 [00:03<00:08, 58.98it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  29%|##9       | 210/720 [00:03<00:08, 58.62it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  30%|###       | 216/720 [00:03<00:08, 58.71it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  31%|###       | 222/720 [00:03<00:08, 57.86it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  32%|###1      | 229/720 [00:03<00:08, 59.38it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  33%|###2      | 235/720 [00:03<00:08, 56.97it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  33%|###3      | 241/720 [00:03<00:08, 56.62it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  34%|###4      | 247/720 [00:03<00:08, 55.59it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  35%|###5      | 253/720 [00:04<00:08, 55.92it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  36%|###5      | 259/720 [00:04<00:08, 56.00it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  37%|###6      | 265/720 [00:04<00:08, 54.64it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  38%|###7      | 271/720 [00:04<00:08, 54.06it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  38%|###8      | 277/720 [00:04<00:08, 53.26it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  39%|###9      | 283/720 [00:04<00:08, 53.19it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  40%|####      | 289/720 [00:04<00:08, 52.60it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  41%|####      | 295/720 [00:04<00:08, 53.07it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  42%|####1     | 301/720 [00:04<00:07, 53.38it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  43%|####2     | 307/720 [00:05<00:07, 53.49it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  43%|####3     | 313/720 [00:05<00:07, 51.68it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  44%|####4     | 319/720 [00:05<00:07, 51.88it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  45%|####5     | 325/720 [00:05<00:07, 51.14it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  46%|####5     | 331/720 [00:05<00:07, 50.29it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  47%|####6     | 337/720 [00:05<00:07, 49.65it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  48%|####7     | 343/720 [00:05<00:07, 50.59it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  48%|####8     | 349/720 [00:05<00:07, 49.34it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  49%|####9     | 355/720 [00:06<00:07, 49.66it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  50%|#####     | 360/720 [00:06<00:07, 49.00it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  51%|#####     | 365/720 [00:06<00:07, 48.05it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  51%|#####1    | 370/720 [00:06<00:07, 47.61it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  52%|#####2    | 375/720 [00:06<00:07, 47.73it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  53%|#####2    | 380/720 [00:06<00:07, 46.67it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  53%|#####3    | 385/720 [00:06<00:07, 46.97it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  54%|#####4    | 390/720 [00:06<00:07, 46.82it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  55%|#####4    | 395/720 [00:06<00:06, 47.30it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  56%|#####5    | 400/720 [00:06<00:06, 46.69it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  56%|#####6    | 405/720 [00:07<00:06, 45.69it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  57%|#####6    | 410/720 [00:07<00:06, 45.39it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  58%|#####7    | 415/720 [00:07<00:06, 45.02it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  58%|#####8    | 420/720 [00:07<00:06, 45.39it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  59%|#####9    | 425/720 [00:07<00:06, 45.08it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  60%|#####9    | 430/720 [00:07<00:06, 44.21it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  60%|######    | 435/720 [00:07<00:06, 44.50it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  61%|######1   | 440/720 [00:07<00:06, 44.66it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  62%|######1   | 445/720 [00:08<00:06, 43.99it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  62%|######2   | 450/720 [00:08<00:06, 43.17it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  63%|######3   | 455/720 [00:08<00:06, 43.11it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  64%|######3   | 460/720 [00:08<00:06, 42.70it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  65%|######4   | 465/720 [00:08<00:06, 41.93it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  65%|######5   | 470/720 [00:08<00:05, 42.25it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  66%|######5   | 475/720 [00:08<00:05, 41.70it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  67%|######6   | 480/720 [00:08<00:05, 40.95it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  67%|######7   | 485/720 [00:08<00:05, 40.71it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  68%|######8   | 490/720 [00:09<00:05, 41.42it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  69%|######8   | 495/720 [00:09<00:05, 40.88it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  69%|######9   | 500/720 [00:09<00:05, 41.07it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  70%|#######   | 505/720 [00:09<00:05, 41.34it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  71%|#######   | 510/720 [00:09<00:05, 41.23it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  72%|#######1  | 515/720 [00:09<00:05, 40.76it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  72%|#######2  | 520/720 [00:09<00:04, 40.37it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  73%|#######2  | 525/720 [00:09<00:04, 39.89it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  73%|#######3  | 529/720 [00:10<00:04, 39.01it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  74%|#######4  | 533/720 [00:10<00:04, 39.23it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  75%|#######4  | 537/720 [00:10<00:04, 39.09it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  75%|#######5  | 542/720 [00:10<00:04, 41.06it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  76%|#######5  | 547/720 [00:10<00:04, 42.59it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  77%|#######6  | 552/720 [00:10<00:03, 42.91it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  77%|#######7  | 557/720 [00:10<00:03, 43.63it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  78%|#######8  | 562/720 [00:10<00:03, 43.86it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  79%|#######8  | 567/720 [00:10<00:03, 43.96it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  79%|#######9  | 572/720 [00:11<00:03, 44.17it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  80%|########  | 577/720 [00:11<00:03, 44.29it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  81%|########  | 582/720 [00:11<00:03, 44.38it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  82%|########1 | 587/720 [00:11<00:03, 43.96it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  82%|########2 | 592/720 [00:11<00:02, 43.99it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  83%|########2 | 597/720 [00:11<00:02, 44.50it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  84%|########3 | 602/720 [00:11<00:02, 44.22it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  84%|########4 | 607/720 [00:11<00:02, 43.75it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  85%|########5 | 612/720 [00:11<00:02, 43.93it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  86%|########5 | 617/720 [00:12<00:02, 44.19it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  86%|########6 | 622/720 [00:12<00:02, 43.79it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  87%|########7 | 627/720 [00:12<00:02, 43.74it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  88%|########7 | 632/720 [00:12<00:02, 43.74it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  88%|########8 | 637/720 [00:12<00:01, 44.17it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  89%|########9 | 642/720 [00:12<00:01, 44.34it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  90%|########9 | 647/720 [00:12<00:01, 44.39it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  91%|######### | 652/720 [00:12<00:01, 44.04it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  91%|#########1| 657/720 [00:12<00:01, 44.88it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  92%|#########1| 662/720 [00:13<00:01, 43.99it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  93%|#########2| 667/720 [00:13<00:01, 44.27it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  93%|#########3| 672/720 [00:13<00:01, 44.20it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  94%|#########4| 677/720 [00:13<00:00, 44.26it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  95%|#########4| 682/720 [00:13<00:00, 43.85it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  95%|#########5| 687/720 [00:13<00:00, 44.20it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  96%|#########6| 692/720 [00:13<00:00, 44.09it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  97%|#########6| 697/720 [00:13<00:00, 44.64it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  98%|#########7| 702/720 [00:13<00:00, 44.86it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  98%|#########8| 707/720 [00:14<00:00, 45.01it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  99%|#########8| 712/720 [00:14<00:00, 45.02it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')): 100%|#########9| 717/720 [00:14<00:00, 44.91it/s]
+                                                                                                                           
+
+Animation 2: Create(VGroup of 2 submobjects):   0%|          | 0/575 [00:00<?, ?it/s]
+Animation 2: Create(VGroup of 2 submobjects):   2%|2         | 14/575 [00:00<00:04, 126.46it/s]
+Animation 2: Create(VGroup of 2 submobjects):   5%|4         | 28/575 [00:00<00:04, 125.31it/s]
+Animation 2: Create(VGroup of 2 submobjects):   7%|7         | 42/575 [00:00<00:04, 125.16it/s]
+Animation 2: Create(VGroup of 2 submobjects):  10%|9         | 57/575 [00:00<00:04, 128.67it/s]
+Animation 2: Create(VGroup of 2 submobjects):  12%|#2        | 71/575 [00:00<00:03, 127.25it/s]
+Animation 2: Create(VGroup of 2 submobjects):  15%|#4        | 85/575 [00:00<00:03, 126.49it/s]
+Animation 2: Create(VGroup of 2 submobjects):  17%|#7        | 98/575 [00:00<00:03, 123.18it/s]
+Animation 2: Create(VGroup of 2 submobjects):  19%|#9        | 111/575 [00:00<00:03, 122.83it/s]
+Animation 2: Create(VGroup of 2 submobjects):  22%|##1       | 124/575 [00:00<00:03, 122.43it/s]
+Animation 2: Create(VGroup of 2 submobjects):  24%|##3       | 137/575 [00:01<00:03, 120.54it/s]
+Animation 2: Create(VGroup of 2 submobjects):  26%|##6       | 150/575 [00:01<00:03, 119.11it/s]
+Animation 2: Create(VGroup of 2 submobjects):  28%|##8       | 162/575 [00:01<00:03, 115.79it/s]
+Animation 2: Create(VGroup of 2 submobjects):  30%|###       | 174/575 [00:01<00:03, 116.05it/s]
+Animation 2: Create(VGroup of 2 submobjects):  32%|###2      | 186/575 [00:01<00:03, 115.17it/s]
+Animation 2: Create(VGroup of 2 submobjects):  34%|###4      | 198/575 [00:01<00:03, 116.08it/s]
+Animation 2: Create(VGroup of 2 submobjects):  37%|###6      | 210/575 [00:01<00:03, 112.53it/s]
+Animation 2: Create(VGroup of 2 submobjects):  39%|###8      | 223/575 [00:01<00:03, 113.04it/s]
+Animation 2: Create(VGroup of 2 submobjects):  41%|####1     | 236/575 [00:01<00:03, 112.78it/s]
+Animation 2: Create(VGroup of 2 submobjects):  43%|####3     | 248/575 [00:02<00:02, 112.24it/s]
+Animation 2: Create(VGroup of 2 submobjects):  45%|####5     | 260/575 [00:02<00:02, 112.34it/s]
+Animation 2: Create(VGroup of 2 submobjects):  47%|####7     | 272/575 [00:02<00:02, 112.55it/s]
+Animation 2: Create(VGroup of 2 submobjects):  49%|####9     | 284/575 [00:02<00:02, 111.77it/s]
+Animation 2: Create(VGroup of 2 submobjects):  51%|#####1    | 296/575 [00:02<00:02, 110.26it/s]
+Animation 2: Create(VGroup of 2 submobjects):  54%|#####3    | 308/575 [00:02<00:02, 108.71it/s]
+Animation 2: Create(VGroup of 2 submobjects):  55%|#####5    | 319/575 [00:02<00:02, 105.79it/s]
+Animation 2: Create(VGroup of 2 submobjects):  57%|#####7    | 330/575 [00:02<00:02, 99.39it/s] 
+Animation 2: Create(VGroup of 2 submobjects):  59%|#####9    | 341/575 [00:02<00:02, 97.29it/s]
+Animation 2: Create(VGroup of 2 submobjects):  61%|######1   | 351/575 [00:03<00:02, 93.13it/s]
+Animation 2: Create(VGroup of 2 submobjects):  63%|######2   | 361/575 [00:03<00:02, 90.16it/s]
+Animation 2: Create(VGroup of 2 submobjects):  65%|######4   | 371/575 [00:03<00:02, 90.87it/s]
+Animation 2: Create(VGroup of 2 submobjects):  66%|######6   | 381/575 [00:03<00:02, 91.62it/s]
+Animation 2: Create(VGroup of 2 submobjects):  68%|######8   | 391/575 [00:03<00:02, 91.00it/s]
+Animation 2: Create(VGroup of 2 submobjects):  70%|######9   | 401/575 [00:03<00:01, 90.59it/s]
+Animation 2: Create(VGroup of 2 submobjects):  71%|#######1  | 411/575 [00:03<00:01, 90.49it/s]
+Animation 2: Create(VGroup of 2 submobjects):  73%|#######3  | 421/575 [00:03<00:01, 91.73it/s]
+Animation 2: Create(VGroup of 2 submobjects):  75%|#######4  | 431/575 [00:04<00:01, 90.77it/s]
+Animation 2: Create(VGroup of 2 submobjects):  77%|#######6  | 441/575 [00:04<00:01, 87.58it/s]
+Animation 2: Create(VGroup of 2 submobjects):  78%|#######8  | 450/575 [00:04<00:01, 85.13it/s]
+Animation 2: Create(VGroup of 2 submobjects):  80%|########  | 460/575 [00:04<00:01, 86.56it/s]
+Animation 2: Create(VGroup of 2 submobjects):  82%|########1 | 470/575 [00:04<00:01, 86.60it/s]
+Animation 2: Create(VGroup of 2 submobjects):  83%|########3 | 479/575 [00:04<00:01, 85.25it/s]
+Animation 2: Create(VGroup of 2 submobjects):  85%|########5 | 489/575 [00:04<00:01, 85.94it/s]
+Animation 2: Create(VGroup of 2 submobjects):  87%|########6 | 499/575 [00:04<00:00, 87.00it/s]
+Animation 2: Create(VGroup of 2 submobjects):  89%|########8 | 509/575 [00:04<00:00, 87.24it/s]
+Animation 2: Create(VGroup of 2 submobjects):  90%|######### | 518/575 [00:05<00:00, 84.43it/s]
+Animation 2: Create(VGroup of 2 submobjects):  92%|#########1| 527/575 [00:05<00:00, 82.98it/s]
+Animation 2: Create(VGroup of 2 submobjects):  93%|#########3| 536/575 [00:05<00:00, 84.72it/s]
+Animation 2: Create(VGroup of 2 submobjects):  95%|#########4| 546/575 [00:05<00:00, 87.89it/s]
+Animation 2: Create(VGroup of 2 submobjects):  97%|#########6| 555/575 [00:05<00:00, 85.36it/s]
+Animation 2: Create(VGroup of 2 submobjects):  98%|#########8| 564/575 [00:05<00:00, 77.79it/s]
+Animation 2: Create(VGroup of 2 submobjects):  99%|#########9| 572/575 [00:05<00:00, 77.23it/s]
+                                                                                               
+
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):   0%|          | 0/1021 [00:00<?, ?it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):   1%|1         | 12/1021 [00:00<00:09, 107.49it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):   2%|2         | 23/1021 [00:00<00:09, 107.84it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):   3%|3         | 34/1021 [00:00<00:09, 103.48it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):   4%|4         | 45/1021 [00:00<00:09, 101.73it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):   5%|5         | 56/1021 [00:00<00:09, 103.17it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):   7%|6         | 67/1021 [00:00<00:09, 101.75it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):   8%|7         | 78/1021 [00:00<00:09, 101.23it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):   9%|8         | 89/1021 [00:00<00:09, 100.44it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  10%|9         | 100/1021 [00:00<00:09, 99.91it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  11%|#         | 111/1021 [00:01<00:09, 98.79it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  12%|#1        | 121/1021 [00:01<00:09, 98.94it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  13%|#2        | 132/1021 [00:01<00:09, 97.60it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  14%|#3        | 142/1021 [00:01<00:09, 96.47it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  15%|#4        | 153/1021 [00:01<00:09, 95.00it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  16%|#5        | 163/1021 [00:01<00:09, 94.55it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  17%|#7        | 174/1021 [00:01<00:08, 95.39it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  18%|#8        | 184/1021 [00:01<00:08, 96.27it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  19%|#9        | 194/1021 [00:01<00:08, 94.35it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  20%|#9        | 204/1021 [00:02<00:08, 94.82it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  21%|##        | 214/1021 [00:02<00:08, 92.74it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  22%|##1       | 224/1021 [00:02<00:08, 93.29it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  23%|##2       | 234/1021 [00:02<00:08, 92.00it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  24%|##3       | 244/1021 [00:02<00:08, 90.99it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  25%|##4       | 254/1021 [00:02<00:08, 90.33it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  26%|##5       | 264/1021 [00:02<00:08, 89.89it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  27%|##6       | 274/1021 [00:02<00:08, 90.11it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  28%|##7       | 284/1021 [00:02<00:08, 88.65it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  29%|##8       | 293/1021 [00:03<00:08, 88.97it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  30%|##9       | 303/1021 [00:03<00:08, 89.64it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  31%|###       | 312/1021 [00:03<00:07, 88.74it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  31%|###1      | 321/1021 [00:03<00:07, 88.87it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  32%|###2      | 330/1021 [00:03<00:07, 88.68it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  33%|###3      | 340/1021 [00:03<00:07, 89.17it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  34%|###4      | 349/1021 [00:03<00:07, 86.51it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  35%|###5      | 358/1021 [00:03<00:07, 84.37it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  36%|###6      | 368/1021 [00:03<00:07, 86.64it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  37%|###7      | 378/1021 [00:04<00:07, 87.61it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  38%|###8      | 388/1021 [00:04<00:07, 87.65it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  39%|###8      | 397/1021 [00:04<00:07, 87.72it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  40%|###9      | 406/1021 [00:04<00:07, 85.88it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  41%|####      | 416/1021 [00:04<00:06, 88.80it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  42%|####1     | 426/1021 [00:04<00:06, 89.02it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  43%|####2     | 436/1021 [00:04<00:06, 89.13it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  44%|####3     | 446/1021 [00:04<00:06, 88.20it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  45%|####4     | 457/1021 [00:04<00:06, 90.16it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  46%|####5     | 467/1021 [00:05<00:06, 89.41it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  47%|####6     | 476/1021 [00:05<00:06, 89.53it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  48%|####7     | 485/1021 [00:05<00:06, 89.00it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  49%|####8     | 496/1021 [00:05<00:05, 91.35it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  50%|####9     | 506/1021 [00:05<00:05, 88.68it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  51%|#####     | 516/1021 [00:05<00:05, 89.63it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  51%|#####1    | 525/1021 [00:05<00:05, 86.96it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  52%|#####2    | 534/1021 [00:05<00:05, 85.95it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  53%|#####3    | 543/1021 [00:05<00:05, 81.69it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  54%|#####4    | 552/1021 [00:06<00:05, 80.96it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  55%|#####4    | 561/1021 [00:06<00:06, 75.87it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  56%|#####5    | 570/1021 [00:06<00:06, 74.26it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  57%|#####6    | 578/1021 [00:06<00:05, 74.17it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  57%|#####7    | 586/1021 [00:06<00:05, 74.24it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  58%|#####8    | 594/1021 [00:06<00:05, 73.59it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  59%|#####8    | 602/1021 [00:06<00:05, 73.47it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  60%|#####9    | 610/1021 [00:06<00:05, 75.26it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  61%|######    | 618/1021 [00:06<00:05, 74.59it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  61%|######1   | 626/1021 [00:07<00:05, 72.01it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  62%|######2   | 634/1021 [00:07<00:05, 72.01it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  63%|######2   | 642/1021 [00:07<00:05, 72.06it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  64%|######3   | 650/1021 [00:07<00:05, 72.06it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  64%|######4   | 658/1021 [00:07<00:05, 70.74it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  65%|######5   | 666/1021 [00:07<00:04, 72.83it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  66%|######6   | 674/1021 [00:07<00:04, 73.39it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  67%|######6   | 682/1021 [00:07<00:04, 74.24it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  68%|######7   | 690/1021 [00:07<00:04, 71.21it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  68%|######8   | 699/1021 [00:08<00:04, 74.99it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  69%|######9   | 707/1021 [00:08<00:04, 75.63it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  70%|#######   | 715/1021 [00:08<00:03, 76.85it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  71%|#######   | 723/1021 [00:08<00:04, 73.03it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  72%|#######1  | 732/1021 [00:08<00:03, 75.29it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  72%|#######2  | 740/1021 [00:08<00:03, 75.97it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  73%|#######3  | 748/1021 [00:08<00:03, 69.93it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  74%|#######4  | 756/1021 [00:08<00:03, 71.98it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  75%|#######4  | 764/1021 [00:08<00:03, 68.21it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  76%|#######5  | 771/1021 [00:09<00:03, 68.37it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  76%|#######6  | 779/1021 [00:09<00:03, 70.08it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  77%|#######7  | 787/1021 [00:09<00:03, 69.85it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  78%|#######7  | 795/1021 [00:09<00:03, 71.22it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  79%|#######8  | 803/1021 [00:09<00:03, 69.24it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  79%|#######9  | 810/1021 [00:09<00:03, 68.27it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  80%|########  | 818/1021 [00:09<00:02, 70.42it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  81%|########  | 826/1021 [00:09<00:02, 69.81it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  82%|########1 | 834/1021 [00:09<00:02, 69.09it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  82%|########2 | 841/1021 [00:10<00:02, 68.59it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  83%|########3 | 849/1021 [00:10<00:02, 70.76it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  84%|########3 | 857/1021 [00:10<00:02, 72.40it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  85%|########4 | 865/1021 [00:10<00:02, 71.04it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  86%|########5 | 873/1021 [00:10<00:02, 71.12it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  86%|########6 | 881/1021 [00:10<00:02, 68.17it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  87%|########6 | 888/1021 [00:10<00:01, 68.29it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  88%|########7 | 895/1021 [00:10<00:01, 66.65it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  88%|########8 | 903/1021 [00:10<00:01, 68.21it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  89%|########9 | 910/1021 [00:11<00:01, 66.59it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  90%|########9 | 918/1021 [00:11<00:01, 66.58it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  91%|######### | 926/1021 [00:11<00:01, 68.14it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  91%|#########1| 934/1021 [00:11<00:01, 67.67it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  92%|#########2| 941/1021 [00:11<00:01, 67.04it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  93%|#########2| 949/1021 [00:11<00:01, 68.70it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  94%|#########3| 956/1021 [00:11<00:00, 68.47it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  94%|#########4| 964/1021 [00:11<00:00, 68.53it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  95%|#########5| 971/1021 [00:11<00:00, 68.12it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  96%|#########5| 979/1021 [00:12<00:00, 69.30it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  97%|#########6| 987/1021 [00:12<00:00, 70.16it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  97%|#########7| 995/1021 [00:12<00:00, 69.86it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  98%|#########8| 1003/1021 [00:12<00:00, 69.82it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')):  99%|#########9| 1011/1021 [00:12<00:00, 68.98it/s]
+Animation 3: Write(MathTex('\\det\\Bigl(\\begin{pmatrix} 2-\\lambda & 1 \\\\ 1 & 2-\\lambda \\end{pmatrix}\\Bigr)=0')): 100%|#########9| 1018/1021 [00:12<00:00, 68.39it/s]
+                                                                                                                                                                           
+
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):   0%|          | 0/621 [00:00<?, ?it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):   2%|2         | 13/621 [00:00<00:04, 124.64it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):   4%|4         | 26/621 [00:00<00:04, 121.40it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):   6%|6         | 39/621 [00:00<00:04, 121.50it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):   8%|8         | 52/621 [00:00<00:04, 124.01it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  10%|#         | 65/621 [00:00<00:04, 121.94it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  13%|#2        | 78/621 [00:00<00:04, 121.16it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  15%|#4        | 91/621 [00:00<00:04, 120.33it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  17%|#6        | 104/621 [00:00<00:04, 118.29it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  19%|#8        | 117/621 [00:00<00:04, 118.27it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  21%|##        | 129/621 [00:01<00:04, 116.63it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  23%|##2       | 141/621 [00:01<00:04, 114.22it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  25%|##4       | 153/621 [00:01<00:04, 111.86it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  27%|##6       | 165/621 [00:01<00:04, 111.49it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  29%|##8       | 177/621 [00:01<00:03, 113.37it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  30%|###       | 189/621 [00:01<00:03, 114.35it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  32%|###2      | 201/621 [00:01<00:03, 114.62it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  34%|###4      | 213/621 [00:01<00:03, 114.48it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  36%|###6      | 225/621 [00:01<00:03, 114.16it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  38%|###8      | 237/621 [00:02<00:03, 114.87it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  40%|####      | 249/621 [00:02<00:03, 112.44it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  42%|####2     | 261/621 [00:02<00:03, 114.25it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  44%|####3     | 273/621 [00:02<00:03, 112.10it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  46%|####5     | 285/621 [00:02<00:03, 111.12it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  48%|####7     | 297/621 [00:02<00:02, 109.91it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  50%|####9     | 309/621 [00:02<00:02, 111.04it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  52%|#####1    | 321/621 [00:02<00:02, 110.78it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  54%|#####3    | 333/621 [00:02<00:02, 109.32it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  55%|#####5    | 344/621 [00:03<00:02, 109.13it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  57%|#####7    | 355/621 [00:03<00:02, 107.69it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  59%|#####8    | 366/621 [00:03<00:02, 107.01it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  61%|######    | 377/621 [00:03<00:02, 107.38it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  62%|######2   | 388/621 [00:03<00:02, 107.57it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  64%|######4   | 399/621 [00:03<00:02, 107.29it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  66%|######6   | 410/621 [00:03<00:01, 106.74it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  68%|######7   | 421/621 [00:03<00:01, 106.43it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  70%|######9   | 432/621 [00:03<00:01, 106.14it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  71%|#######1  | 443/621 [00:03<00:01, 101.99it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  73%|#######3  | 454/621 [00:04<00:01, 96.68it/s] 
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  75%|#######4  | 465/621 [00:04<00:01, 97.24it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  77%|#######6  | 476/621 [00:04<00:01, 99.50it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  78%|#######8  | 487/621 [00:04<00:01, 99.81it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  80%|########  | 498/621 [00:04<00:01, 100.26it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  82%|########1 | 509/621 [00:04<00:01, 97.41it/s] 
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  84%|########3 | 519/621 [00:04<00:01, 93.80it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  85%|########5 | 529/621 [00:04<00:01, 91.18it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  87%|########6 | 539/621 [00:04<00:00, 88.85it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  88%|########8 | 549/621 [00:05<00:00, 89.49it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  90%|########9 | 558/621 [00:05<00:00, 87.61it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  91%|#########1| 567/621 [00:05<00:00, 86.54it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  93%|#########2| 577/621 [00:05<00:00, 87.97it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  94%|#########4| 586/621 [00:05<00:00, 87.53it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  96%|#########5| 595/621 [00:05<00:00, 84.83it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  97%|#########7| 604/621 [00:05<00:00, 84.54it/s]
+Animation 4: Write(MathTex('\\lambda=1 \\quad\\text{or}\\quad \\lambda=3')):  99%|#########8| 613/621 [00:05<00:00, 84.64it/s]
+                                                                                                                              
+
+Animation 5: Create(VGroup of 2 submobjects):   0%|          | 0/618 [00:00<?, ?it/s]
+Animation 5: Create(VGroup of 2 submobjects):   2%|2         | 14/618 [00:00<00:04, 126.50it/s]
+Animation 5: Create(VGroup of 2 submobjects):   5%|4         | 28/618 [00:00<00:04, 131.96it/s]
+Animation 5: Create(VGroup of 2 submobjects):   7%|6         | 42/618 [00:00<00:04, 132.16it/s]
+Animation 5: Create(VGroup of 2 submobjects):   9%|9         | 56/618 [00:00<00:04, 131.05it/s]
+Animation 5: Create(VGroup of 2 submobjects):  11%|#1        | 70/618 [00:00<00:04, 132.82it/s]
+Animation 5: Create(VGroup of 2 submobjects):  14%|#3        | 84/618 [00:00<00:04, 128.20it/s]
+Animation 5: Create(VGroup of 2 submobjects):  16%|#5        | 97/618 [00:00<00:04, 126.74it/s]
+Animation 5: Create(VGroup of 2 submobjects):  18%|#7        | 111/618 [00:00<00:04, 126.19it/s]
+Animation 5: Create(VGroup of 2 submobjects):  20%|##        | 124/618 [00:00<00:03, 126.34it/s]
+Animation 5: Create(VGroup of 2 submobjects):  22%|##2       | 137/618 [00:01<00:03, 122.58it/s]
+Animation 5: Create(VGroup of 2 submobjects):  24%|##4       | 150/618 [00:01<00:03, 121.60it/s]
+Animation 5: Create(VGroup of 2 submobjects):  26%|##6       | 163/618 [00:01<00:03, 122.02it/s]
+Animation 5: Create(VGroup of 2 submobjects):  28%|##8       | 176/618 [00:01<00:03, 123.29it/s]
+Animation 5: Create(VGroup of 2 submobjects):  31%|###       | 189/618 [00:01<00:03, 118.63it/s]
+Animation 5: Create(VGroup of 2 submobjects):  33%|###2      | 201/618 [00:01<00:03, 118.44it/s]
+Animation 5: Create(VGroup of 2 submobjects):  34%|###4      | 213/618 [00:01<00:03, 117.01it/s]
+Animation 5: Create(VGroup of 2 submobjects):  36%|###6      | 225/618 [00:01<00:03, 114.64it/s]
+Animation 5: Create(VGroup of 2 submobjects):  38%|###8      | 237/618 [00:01<00:03, 111.06it/s]
+Animation 5: Create(VGroup of 2 submobjects):  40%|####      | 249/618 [00:02<00:03, 111.76it/s]
+Animation 5: Create(VGroup of 2 submobjects):  42%|####2     | 261/618 [00:02<00:03, 109.99it/s]
+Animation 5: Create(VGroup of 2 submobjects):  44%|####4     | 273/618 [00:02<00:03, 109.61it/s]
+Animation 5: Create(VGroup of 2 submobjects):  46%|####5     | 284/618 [00:02<00:03, 107.55it/s]
+Animation 5: Create(VGroup of 2 submobjects):  48%|####7     | 295/618 [00:02<00:02, 108.04it/s]
+Animation 5: Create(VGroup of 2 submobjects):  50%|####9     | 306/618 [00:02<00:02, 105.62it/s]
+Animation 5: Create(VGroup of 2 submobjects):  51%|#####1    | 317/618 [00:02<00:02, 105.03it/s]
+Animation 5: Create(VGroup of 2 submobjects):  53%|#####3    | 328/618 [00:02<00:02, 103.13it/s]
+Animation 5: Create(VGroup of 2 submobjects):  55%|#####4    | 339/618 [00:02<00:02, 102.14it/s]
+Animation 5: Create(VGroup of 2 submobjects):  57%|#####6    | 350/618 [00:03<00:02, 102.83it/s]
+Animation 5: Create(VGroup of 2 submobjects):  58%|#####8    | 361/618 [00:03<00:02, 99.84it/s] 
+Animation 5: Create(VGroup of 2 submobjects):  60%|######    | 372/618 [00:03<00:02, 98.65it/s]
+Animation 5: Create(VGroup of 2 submobjects):  62%|######1   | 382/618 [00:03<00:02, 96.96it/s]
+Animation 5: Create(VGroup of 2 submobjects):  63%|######3   | 392/618 [00:03<00:02, 94.53it/s]
+Animation 5: Create(VGroup of 2 submobjects):  65%|######5   | 402/618 [00:03<00:02, 94.01it/s]
+Animation 5: Create(VGroup of 2 submobjects):  67%|######6   | 412/618 [00:03<00:02, 93.56it/s]
+Animation 5: Create(VGroup of 2 submobjects):  68%|######8   | 422/618 [00:03<00:02, 93.62it/s]
+Animation 5: Create(VGroup of 2 submobjects):  70%|######9   | 432/618 [00:03<00:02, 91.81it/s]
+Animation 5: Create(VGroup of 2 submobjects):  72%|#######1  | 442/618 [00:04<00:01, 88.04it/s]
+Animation 5: Create(VGroup of 2 submobjects):  73%|#######2  | 451/618 [00:04<00:01, 87.02it/s]
+Animation 5: Create(VGroup of 2 submobjects):  74%|#######4  | 460/618 [00:04<00:01, 85.39it/s]
+Animation 5: Create(VGroup of 2 submobjects):  76%|#######6  | 470/618 [00:04<00:01, 87.18it/s]
+Animation 5: Create(VGroup of 2 submobjects):  78%|#######7  | 480/618 [00:04<00:01, 88.45it/s]
+Animation 5: Create(VGroup of 2 submobjects):  79%|#######9  | 489/618 [00:04<00:01, 87.75it/s]
+Animation 5: Create(VGroup of 2 submobjects):  81%|########  | 499/618 [00:04<00:01, 91.14it/s]
+Animation 5: Create(VGroup of 2 submobjects):  82%|########2 | 509/618 [00:04<00:01, 89.32it/s]
+Animation 5: Create(VGroup of 2 submobjects):  84%|########3 | 518/618 [00:04<00:01, 88.19it/s]
+Animation 5: Create(VGroup of 2 submobjects):  85%|########5 | 528/618 [00:05<00:00, 90.48it/s]
+Animation 5: Create(VGroup of 2 submobjects):  87%|########7 | 538/618 [00:05<00:00, 87.94it/s]
+Animation 5: Create(VGroup of 2 submobjects):  89%|########8 | 547/618 [00:05<00:00, 88.31it/s]
+Animation 5: Create(VGroup of 2 submobjects):  90%|########9 | 556/618 [00:05<00:00, 86.59it/s]
+Animation 5: Create(VGroup of 2 submobjects):  91%|#########1| 565/618 [00:05<00:00, 86.73it/s]
+Animation 5: Create(VGroup of 2 submobjects):  93%|#########2| 574/618 [00:05<00:00, 86.82it/s]
+Animation 5: Create(VGroup of 2 submobjects):  94%|#########4| 583/618 [00:05<00:00, 84.14it/s]
+Animation 5: Create(VGroup of 2 submobjects):  96%|#########5| 592/618 [00:05<00:00, 85.37it/s]
+Animation 5: Create(VGroup of 2 submobjects):  97%|#########7| 601/618 [00:05<00:00, 85.42it/s]
+Animation 5: Create(VGroup of 2 submobjects):  99%|#########8| 610/618 [00:05<00:00, 85.25it/s]
+                                                                                               
++--------------------- Traceback (most recent call last) ---------------------+
+| c:\Work\Manim-AI\.venv\Lib\site-packages\manim\cli\render\commands.py:125   |
+| in render                                                                   |
+|                                                                             |
+|   122             try:                                                      |
+|   123                 with tempconfig({}):                                  |
+|   124                     scene = SceneClass()                              |
+| > 125                     scene.render()                                    |
+|   126             except Exception:                                         |
+|   127                 error_console.print_exception()                       |
+|   128                 sys.exit(1)                                           |
+|                                                                             |
+| c:\Work\Manim-AI\.venv\Lib\site-packages\manim\scene\scene.py:237 in render |
+|                                                                             |
+|    234         """                                                          |
+|    235         self.setup()                                                 |
+|    236         try:                                                         |
+| >  237             self.construct()                                         |
+|    238         except EndSceneEarlyException:                               |
+|    239             pass                                                     |
+|    240         except RerunSceneException:                                  |
+|                                                                             |
+| C:\Work\Manim-AI\outputs\main_test_outputs\debug_attempt_1.py:84 in         |
+| construct                                                                   |
+|                                                                             |
+|    81         summary_title.to_edge(UP, buff=0.5)                           |
+|    82                                                                       |
+|    83         summary_points = VGroup(                                      |
+| >  84             Tex(r"\bullet\ Eigenvalues are the scaling factors.", fon |
+|    85             Tex(r"\bullet\ Eigenvectors retain their direction.", fon |
+|    86             Tex(r"\bullet\ They are fundamental in linear algebra and |
+|    87         )                                                             |
+|                                                                             |
+| c:\Work\Manim-AI\.venv\Lib\site-packages\manim\mobject\text\tex_mobject.py: |
+| 452 in __init__                                                             |
+|                                                                             |
+|   449     def __init__(                                                     |
+|   450         self, *tex_strings, arg_separator="", tex_environment="center |
+|   451     ):                                                                |
+| > 452         super().__init__(                                             |
+|   453             *tex_strings,                                             |
+|   454             arg_separator=arg_separator,                              |
+|   455             tex_environment=tex_environment,                          |
+|                                                                             |
+| c:\Work\Manim-AI\.venv\Lib\site-packages\manim\mobject\text\tex_mobject.py: |
+| 298 in __init__                                                             |
+|                                                                             |
+|   295                         """,                                          |
+|   296                     ),                                                |
+|   297                 )                                                     |
+| > 298             raise compilation_error                                   |
+|   299         self.set_color_by_tex_to_color_map(self.tex_to_color_map)     |
+|   300                                                                       |
+|   301         if self.organize_left_to_right:                               |
+|                                                                             |
+| c:\Work\Manim-AI\.venv\Lib\site-packages\manim\mobject\text\tex_mobject.py: |
+| 277 in __init__                                                             |
+|                                                                             |
+|   274         self.brace_notation_split_occurred = False                    |
+|   275         self.tex_strings = self._break_up_tex_strings(tex_strings)    |
+|   276         try:                                                          |
+| > 277             super().__init__(                                         |
+|   278                 self.arg_separator.join(self.tex_strings),            |
+|   279                 tex_environment=self.tex_environment,                 |
+|   280                 tex_template=self.tex_template,                       |
+|                                                                             |
+| c:\Work\Manim-AI\.venv\Lib\site-packages\manim\mobject\text\tex_mobject.py: |
+| 80 in __init__                                                              |
+|                                                                             |
+|    77                                                                       |
+|    78         assert isinstance(tex_string, str)                            |
+|    79         self.tex_string = tex_string                                  |
+| >  80         file_name = tex_to_svg_file(                                  |
+|    81             self._get_modified_expression(tex_string),                |
+|    82             environment=self.tex_environment,                         |
+|    83             tex_template=self.tex_template,                           |
+|                                                                             |
+| c:\Work\Manim-AI\.venv\Lib\site-packages\manim\utils\tex_file_writing.py:65 |
+| in tex_to_svg_file                                                          |
+|                                                                             |
+|    62     if svg_file.exists():                                             |
+|    63         return svg_file                                               |
+|    64                                                                       |
+| >  65     dvi_file = compile_tex(                                           |
+|    66         tex_file,                                                     |
+|    67         tex_template.tex_compiler,                                    |
+|    68         tex_template.output_format,                                   |
+|                                                                             |
+| c:\Work\Manim-AI\.venv\Lib\site-packages\manim\utils\tex_file_writing.py:21 |
+| 2 in compile_tex                                                            |
+|                                                                             |
+|   209         if cp.returncode != 0:                                        |
+|   210             log_file = tex_file.with_suffix(".log")                   |
+|   211             print_all_tex_errors(log_file, tex_compiler, tex_file)    |
+| > 212             raise ValueError(                                         |
+|   213                 f"{tex_compiler} error converting to"                 |
+|   214                 f" {output_format[1:]}. See log output above or"      |
+|   215                 f" the log file: {log_file}",                         |
++-----------------------------------------------------------------------------+
+ValueError: latex error converting to dvi. See log output above or the log 
+file: media\Tex\7a3c1fa505651e88.log

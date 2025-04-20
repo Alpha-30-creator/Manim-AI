@@ -1,0 +1,231 @@
+c:\Work\Manim-AI\.venv\Lib\site-packages\pydub\utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+  warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+'sox' is not recognized as an internal or external command,
+operable program or batch file.
+
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):   0%|          | 0/720 [00:00<?, ?it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):   1%|1         | 8/720 [00:00<00:09, 76.97it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):   2%|2         | 16/720 [00:00<00:09, 75.22it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):   3%|3         | 24/720 [00:00<00:09, 76.86it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):   4%|4         | 32/720 [00:00<00:08, 77.99it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):   6%|5         | 42/720 [00:00<00:08, 82.28it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):   7%|7         | 51/720 [00:00<00:09, 73.04it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):   8%|8         | 59/720 [00:00<00:08, 73.83it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):   9%|9         | 67/720 [00:00<00:09, 72.26it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  11%|#         | 76/720 [00:01<00:08, 73.19it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  12%|#1        | 84/720 [00:01<00:09, 70.48it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  13%|#2        | 92/720 [00:01<00:09, 68.50it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  14%|#3        | 99/720 [00:01<00:09, 67.88it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  15%|#4        | 106/720 [00:01<00:09, 64.90it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  16%|#5        | 114/720 [00:01<00:09, 66.46it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  17%|#6        | 121/720 [00:01<00:09, 64.43it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  18%|#7        | 128/720 [00:01<00:09, 63.74it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  19%|#8        | 135/720 [00:01<00:09, 63.18it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  20%|#9        | 142/720 [00:02<00:09, 62.31it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  21%|##        | 149/720 [00:02<00:09, 62.76it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  22%|##1       | 156/720 [00:02<00:09, 61.96it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  23%|##2       | 163/720 [00:02<00:09, 60.50it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  24%|##3       | 170/720 [00:02<00:09, 59.95it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  25%|##4       | 177/720 [00:02<00:09, 58.23it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  26%|##5       | 185/720 [00:02<00:08, 61.39it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  27%|##6       | 192/720 [00:02<00:08, 59.13it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  28%|##7       | 199/720 [00:03<00:08, 58.76it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  28%|##8       | 205/720 [00:03<00:08, 58.45it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  29%|##9       | 211/720 [00:03<00:08, 57.17it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  30%|###       | 217/720 [00:03<00:08, 56.38it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  31%|###       | 223/720 [00:03<00:08, 56.89it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  32%|###1      | 229/720 [00:03<00:08, 56.38it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  33%|###2      | 236/720 [00:03<00:08, 57.78it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  34%|###3      | 242/720 [00:03<00:08, 56.06it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  34%|###4      | 248/720 [00:03<00:08, 56.16it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  35%|###5      | 255/720 [00:04<00:08, 56.90it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  36%|###6      | 261/720 [00:04<00:08, 56.06it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  37%|###7      | 267/720 [00:04<00:08, 54.85it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  38%|###7      | 273/720 [00:04<00:08, 55.15it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  39%|###8      | 279/720 [00:04<00:08, 53.36it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  40%|###9      | 285/720 [00:04<00:08, 53.72it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  40%|####      | 291/720 [00:04<00:07, 53.70it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  41%|####1     | 297/720 [00:04<00:07, 53.85it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  42%|####2     | 303/720 [00:04<00:07, 52.53it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  43%|####2     | 309/720 [00:05<00:07, 51.91it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  44%|####3     | 315/720 [00:05<00:08, 49.40it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  45%|####4     | 321/720 [00:05<00:07, 50.13it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  45%|####5     | 327/720 [00:05<00:07, 50.23it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  46%|####6     | 333/720 [00:05<00:07, 52.15it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  47%|####7     | 339/720 [00:05<00:07, 50.67it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  48%|####7     | 345/720 [00:05<00:07, 49.59it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  49%|####8     | 350/720 [00:05<00:07, 49.36it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  49%|####9     | 355/720 [00:05<00:07, 49.34it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  50%|#####     | 361/720 [00:06<00:07, 49.10it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  51%|#####     | 366/720 [00:06<00:07, 48.76it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  52%|#####1    | 371/720 [00:06<00:07, 48.57it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  52%|#####2    | 376/720 [00:06<00:07, 46.00it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  53%|#####2    | 381/720 [00:06<00:07, 46.35it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  54%|#####3    | 386/720 [00:06<00:07, 46.06it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  54%|#####4    | 392/720 [00:06<00:07, 46.12it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  55%|#####5    | 397/720 [00:06<00:07, 46.07it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  56%|#####5    | 402/720 [00:06<00:06, 45.80it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  57%|#####6    | 407/720 [00:07<00:06, 46.60it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  57%|#####7    | 412/720 [00:07<00:06, 45.96it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  58%|#####7    | 417/720 [00:07<00:06, 46.53it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  59%|#####8    | 422/720 [00:07<00:06, 45.24it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  59%|#####9    | 427/720 [00:07<00:06, 45.66it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  60%|######    | 432/720 [00:07<00:06, 45.61it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  61%|######    | 437/720 [00:07<00:06, 44.77it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  61%|######1   | 442/720 [00:07<00:06, 44.73it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  62%|######2   | 447/720 [00:08<00:06, 43.38it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  63%|######2   | 452/720 [00:08<00:06, 43.30it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  63%|######3   | 457/720 [00:08<00:06, 42.66it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  64%|######4   | 462/720 [00:08<00:06, 42.02it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  65%|######4   | 467/720 [00:08<00:06, 41.54it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  66%|######5   | 472/720 [00:08<00:05, 42.10it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  66%|######6   | 477/720 [00:08<00:05, 41.57it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  67%|######6   | 482/720 [00:08<00:05, 41.13it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  68%|######7   | 487/720 [00:08<00:05, 40.79it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  68%|######8   | 492/720 [00:09<00:05, 40.26it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  69%|######9   | 497/720 [00:09<00:05, 40.62it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  70%|######9   | 502/720 [00:09<00:05, 39.90it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  70%|#######   | 507/720 [00:09<00:05, 39.96it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  71%|#######1  | 512/720 [00:09<00:05, 38.99it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  72%|#######1  | 516/720 [00:09<00:05, 38.92it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  72%|#######2  | 520/720 [00:09<00:05, 38.88it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  73%|#######2  | 525/720 [00:09<00:04, 39.27it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  74%|#######3  | 530/720 [00:10<00:04, 40.81it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  74%|#######4  | 535/720 [00:10<00:04, 41.89it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  75%|#######5  | 540/720 [00:10<00:04, 41.90it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  76%|#######5  | 545/720 [00:10<00:04, 42.86it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  76%|#######6  | 550/720 [00:10<00:03, 43.40it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  77%|#######7  | 555/720 [00:10<00:03, 43.87it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  78%|#######7  | 560/720 [00:10<00:03, 44.04it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  78%|#######8  | 565/720 [00:10<00:03, 44.71it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  79%|#######9  | 570/720 [00:10<00:03, 45.16it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  80%|#######9  | 575/720 [00:11<00:03, 45.34it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  81%|########  | 580/720 [00:11<00:03, 43.28it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  81%|########1 | 585/720 [00:11<00:03, 43.63it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  82%|########1 | 590/720 [00:11<00:02, 44.65it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  83%|########2 | 595/720 [00:11<00:02, 44.22it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  83%|########3 | 600/720 [00:11<00:02, 43.71it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  84%|########4 | 605/720 [00:11<00:02, 43.98it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  85%|########4 | 610/720 [00:11<00:02, 43.17it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  85%|########5 | 615/720 [00:11<00:02, 43.60it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  86%|########6 | 620/720 [00:12<00:02, 43.89it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  87%|########6 | 625/720 [00:12<00:02, 44.14it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  88%|########7 | 630/720 [00:12<00:02, 44.22it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  88%|########8 | 635/720 [00:12<00:01, 44.83it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  89%|########8 | 640/720 [00:12<00:01, 43.78it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  90%|########9 | 645/720 [00:12<00:01, 44.06it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  90%|######### | 650/720 [00:12<00:01, 44.27it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  91%|######### | 655/720 [00:12<00:01, 44.27it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  92%|#########1| 660/720 [00:12<00:01, 44.30it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  92%|#########2| 665/720 [00:13<00:01, 44.38it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  93%|#########3| 670/720 [00:13<00:01, 45.91it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  94%|#########3| 675/720 [00:13<00:01, 44.89it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  94%|#########4| 680/720 [00:13<00:00, 44.04it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  95%|#########5| 685/720 [00:13<00:00, 44.56it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  96%|#########5| 690/720 [00:13<00:00, 45.10it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  97%|#########6| 695/720 [00:13<00:00, 45.15it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  97%|#########7| 700/720 [00:13<00:00, 43.93it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  98%|#########7| 705/720 [00:13<00:00, 45.12it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  99%|#########8| 710/720 [00:14<00:00, 44.26it/s]
+Animation 0: Write(Text('Introduction to Eigenvalues and Eigenvectors')):  99%|#########9| 716/720 [00:14<00:00, 44.77it/s]
+                                                                                                                           
++--------------------- Traceback (most recent call last) ---------------------+
+| c:\Work\Manim-AI\.venv\Lib\site-packages\manim\cli\render\commands.py:125   |
+| in render                                                                   |
+|                                                                             |
+|   122             try:                                                      |
+|   123                 with tempconfig({}):                                  |
+|   124                     scene = SceneClass()                              |
+| > 125                     scene.render()                                    |
+|   126             except Exception:                                         |
+|   127                 error_console.print_exception()                       |
+|   128                 sys.exit(1)                                           |
+|                                                                             |
+| c:\Work\Manim-AI\.venv\Lib\site-packages\manim\scene\scene.py:237 in render |
+|                                                                             |
+|    234         """                                                          |
+|    235         self.setup()                                                 |
+|    236         try:                                                         |
+| >  237             self.construct()                                         |
+|    238         except EndSceneEarlyException:                               |
+|    239             pass                                                     |
+|    240         except RerunSceneException:                                  |
+|                                                                             |
+| C:\Work\Manim-AI\outputs\main_test_outputs\reviewed_code.py:38 in construct |
+|                                                                             |
+|    35         matrix.move_to(ORIGIN)  # CENTER zone                         |
+|    36                                                                       |
+|    37         # Group the matrix with its label                             |
+| >  38         matrix_label = Tex(r"A = \begin{pmatrix} 2 & 1 \\ 1 & 2 \end{ |
+|    39         matrix_label.next_to(matrix, DOWN, buff=0.5)                  |
+|    40         matrix_group = VGroup(matrix, matrix_label)                   |
+|    41                                                                       |
+|                                                                             |
+| c:\Work\Manim-AI\.venv\Lib\site-packages\manim\mobject\text\tex_mobject.py: |
+| 452 in __init__                                                             |
+|                                                                             |
+|   449     def __init__(                                                     |
+|   450         self, *tex_strings, arg_separator="", tex_environment="center |
+|   451     ):                                                                |
+| > 452         super().__init__(                                             |
+|   453             *tex_strings,                                             |
+|   454             arg_separator=arg_separator,                              |
+|   455             tex_environment=tex_environment,                          |
+|                                                                             |
+| c:\Work\Manim-AI\.venv\Lib\site-packages\manim\mobject\text\tex_mobject.py: |
+| 298 in __init__                                                             |
+|                                                                             |
+|   295                         """,                                          |
+|   296                     ),                                                |
+|   297                 )                                                     |
+| > 298             raise compilation_error                                   |
+|   299         self.set_color_by_tex_to_color_map(self.tex_to_color_map)     |
+|   300                                                                       |
+|   301         if self.organize_left_to_right:                               |
+|                                                                             |
+| c:\Work\Manim-AI\.venv\Lib\site-packages\manim\mobject\text\tex_mobject.py: |
+| 277 in __init__                                                             |
+|                                                                             |
+|   274         self.brace_notation_split_occurred = False                    |
+|   275         self.tex_strings = self._break_up_tex_strings(tex_strings)    |
+|   276         try:                                                          |
+| > 277             super().__init__(                                         |
+|   278                 self.arg_separator.join(self.tex_strings),            |
+|   279                 tex_environment=self.tex_environment,                 |
+|   280                 tex_template=self.tex_template,                       |
+|                                                                             |
+| c:\Work\Manim-AI\.venv\Lib\site-packages\manim\mobject\text\tex_mobject.py: |
+| 80 in __init__                                                              |
+|                                                                             |
+|    77                                                                       |
+|    78         assert isinstance(tex_string, str)                            |
+|    79         self.tex_string = tex_string                                  |
+| >  80         file_name = tex_to_svg_file(                                  |
+|    81             self._get_modified_expression(tex_string),                |
+|    82             environment=self.tex_environment,                         |
+|    83             tex_template=self.tex_template,                           |
+|                                                                             |
+| c:\Work\Manim-AI\.venv\Lib\site-packages\manim\utils\tex_file_writing.py:65 |
+| in tex_to_svg_file                                                          |
+|                                                                             |
+|    62     if svg_file.exists():                                             |
+|    63         return svg_file                                               |
+|    64                                                                       |
+| >  65     dvi_file = compile_tex(                                           |
+|    66         tex_file,                                                     |
+|    67         tex_template.tex_compiler,                                    |
+|    68         tex_template.output_format,                                   |
+|                                                                             |
+| c:\Work\Manim-AI\.venv\Lib\site-packages\manim\utils\tex_file_writing.py:21 |
+| 2 in compile_tex                                                            |
+|                                                                             |
+|   209         if cp.returncode != 0:                                        |
+|   210             log_file = tex_file.with_suffix(".log")                   |
+|   211             print_all_tex_errors(log_file, tex_compiler, tex_file)    |
+| > 212             raise ValueError(                                         |
+|   213                 f"{tex_compiler} error converting to"                 |
+|   214                 f" {output_format[1:]}. See log output above or"      |
+|   215                 f" the log file: {log_file}",                         |
++-----------------------------------------------------------------------------+
+ValueError: latex error converting to dvi. See log output above or the log 
+file: media\Tex\30e4c5ae489b4574.log

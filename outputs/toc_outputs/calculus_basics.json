@@ -1,6 +1,6 @@
 {
   "main_topic": "Calculus: Limits, Derivatives, and Integrals with Applications to Physics",
-  "description": "This series of educational videos will cover the fundamental concepts of calculus, focusing on limits, derivatives, and integrals, and their applications in physics. Designed for first-year undergraduate students, the content will build progressively to ensure a solid understanding of each concept before moving on to the next.",
+  "description": "This series of educational videos will introduce first-year undergraduate students to the fundamental concepts of calculus, focusing on limits, derivatives, and integrals, and their applications in physics. The content is structured to build a solid foundation in calculus, leading to practical applications in physical scenarios.",
   "total_subtopics": 8,
   "difficulty": "beginner",
   "audience": "first-year undergraduate students",
@@ -11,109 +11,77 @@
       "estimated_duration": 2.0,
       "difficulty": "beginner",
       "prerequisites": [],
-      "key_points": [
-        "Definition of a limit",
-        "Understanding limit notation",
-        "Basic examples of limits approaching a value"
-      ]
+      "description": "This subtopic introduces the concept of limits, defining what a limit is and why it is essential in calculus. Key concepts include approaching values, limit notation, and the idea of continuity. Examples will illustrate how to evaluate limits using direct substitution and simple algebraic manipulation."
     },
     {
-      "title": "Calculating Limits Algebraically",
+      "title": "Calculating Limits: Techniques and Examples",
       "order_index": 2,
       "estimated_duration": 3.0,
-      "difficulty": "beginner",
+      "difficulty": "intermediate",
       "prerequisites": [
         "Introduction to Limits"
       ],
-      "key_points": [
-        "Techniques for calculating limits",
-        "Direct substitution",
-        "Factoring and simplifying limits"
-      ]
+      "description": "This video covers various techniques for calculating limits, including factoring, rationalizing, and using the Squeeze Theorem. It will also address common pitfalls and misconceptions when evaluating limits, with several worked examples to demonstrate each technique."
     },
     {
-      "title": "Understanding Derivatives",
+      "title": "Introduction to Derivatives",
       "order_index": 3,
       "estimated_duration": 2.0,
       "difficulty": "beginner",
       "prerequisites": [
-        "Calculating Limits Algebraically"
+        "Calculating Limits: Techniques and Examples"
       ],
-      "key_points": [
-        "Definition of a derivative",
-        "Interpretation as a rate of change",
-        "Basic derivative notation"
-      ]
+      "description": "This subtopic introduces derivatives, defining them as the rate of change of a function. It covers the concept of instantaneous rate of change and introduces derivative notation. Basic examples will illustrate how to interpret derivatives graphically."
     },
     {
-      "title": "Basic Derivative Rules",
+      "title": "Basic Derivative Rules and Applications",
       "order_index": 4,
       "estimated_duration": 3.0,
       "difficulty": "intermediate",
       "prerequisites": [
-        "Understanding Derivatives"
+        "Introduction to Derivatives"
       ],
-      "key_points": [
-        "Power rule",
-        "Product rule",
-        "Quotient rule"
-      ]
-    },
-    {
-      "title": "Applications of Derivatives in Physics",
-      "order_index": 5,
-      "estimated_duration": 4.0,
-      "difficulty": "intermediate",
-      "prerequisites": [
-        "Basic Derivative Rules"
-      ],
-      "key_points": [
-        "Velocity as a derivative of position",
-        "Acceleration as a derivative of velocity",
-        "Real-world examples in physics"
-      ]
+      "description": "This video presents the basic rules for calculating derivatives, including the power rule, product rule, and quotient rule. It will also cover the concept of higher-order derivatives and provide examples of how derivatives are used in physics to describe motion."
     },
     {
       "title": "Introduction to Integrals",
-      "order_index": 6,
+      "order_index": 5,
       "estimated_duration": 2.0,
       "difficulty": "beginner",
       "prerequisites": [
-        "Calculating Limits Algebraically"
+        "Basic Derivative Rules and Applications"
       ],
-      "key_points": [
-        "Definition of an integral",
-        "Understanding area under a curve",
-        "Basic integral notation"
-      ]
+      "description": "This subtopic introduces integrals, defining them as the accumulation of quantities. It covers the concept of area under a curve and introduces integral notation. Simple examples will illustrate the relationship between integration and area."
     },
     {
       "title": "Fundamental Theorem of Calculus",
-      "order_index": 7,
-      "estimated_duration": 5.0,
-      "difficulty": "advanced",
+      "order_index": 6,
+      "estimated_duration": 3.0,
+      "difficulty": "intermediate",
       "prerequisites": [
         "Introduction to Integrals"
       ],
-      "key_points": [
-        "Connection between differentiation and integration",
-        "Understanding definite and indefinite integrals",
-        "Applications in calculating areas"
-      ]
+      "description": "This video explains the Fundamental Theorem of Calculus, establishing the connection between differentiation and integration. It will cover both parts of the theorem, providing examples that demonstrate how to apply it to compute definite integrals."
+    },
+    {
+      "title": "Applications of Derivatives in Physics",
+      "order_index": 7,
+      "estimated_duration": 4.0,
+      "difficulty": "advanced",
+      "prerequisites": [
+        "Basic Derivative Rules and Applications"
+      ],
+      "description": "This subtopic explores the applications of derivatives in physics, focusing on concepts such as velocity, acceleration, and optimization problems. It will include examples from kinematics and dynamics, illustrating how calculus is used to solve real-world physics problems."
     },
     {
       "title": "Applications of Integrals in Physics",
       "order_index": 8,
-      "estimated_duration": 4.0,
-      "difficulty": "intermediate",
+      "estimated_duration": 5.0,
+      "difficulty": "advanced",
       "prerequisites": [
         "Fundamental Theorem of Calculus"
       ],
-      "key_points": [
-        "Calculating work done using integrals",
-        "Finding center of mass",
-        "Real-world applications in physics"
-      ]
+      "description": "This final video discusses the applications of integrals in physics, including calculating work done by a force and finding the center of mass. It will provide complex examples that require the use of definite integrals, emphasizing the practical significance of integration in physical contexts."
     }
   ]
 }

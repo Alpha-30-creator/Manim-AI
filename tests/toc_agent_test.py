@@ -12,6 +12,7 @@ from langchain_community.callbacks import get_openai_callback
 import tiktoken
 
 from agents import toc_agent
+
 # Azure OpenAI models map to these encodings
 MODEL_ENCODING_MAP = {
     "gpt-4o": "cl100k_base",
@@ -20,7 +21,6 @@ MODEL_ENCODING_MAP = {
     "gpt-35-turbo": "cl100k_base",
     "text-embedding-ada-002": "cl100k_base"
 }
-
 
 def count_tokens(text, model="gpt-4o-mini"):
     """Count tokens using tiktoken.
@@ -40,7 +40,6 @@ def count_tokens(text, model="gpt-4o-mini"):
     token_ids = encoding.encode(text)
     return len(token_ids)
 
-
 def save_to_json(toc, filename):
     """Save the TOC to a JSON file."""
     # Create outputs directory if it doesn't exist
@@ -53,7 +52,6 @@ def save_to_json(toc, filename):
         json.dump(toc.dict(), f, indent=2)
     
     print(f"TOC saved to {filepath}")
-
 
 def print_toc(toc):
     """Print the TOC in a readable format."""
@@ -69,11 +67,9 @@ def print_toc(toc):
         print(f"\n{subtopic.order_index}. {subtopic.title} ({subtopic.difficulty}, {subtopic.estimated_duration} min)")
         if subtopic.prerequisites:
             print(f"   Prerequisites: {', '.join(subtopic.prerequisites)}")
-        print(f"   Key Points:")
-        for point in subtopic.key_points:
-            print(f"     - {point}")
+        print("   Description:")
+        print(f"     {subtopic.description}")
     print("="*50 + "\n")
-
 
 def test_toc_generation():
     """Test the TOC agent with various math topics and monitor token usage."""
@@ -175,7 +171,6 @@ Break down the topic into logical subtopics that build upon each other in an opt
     print(f"  Total Tokens: {total_tokens['total_tokens']}")
     print(f"  Average Tokens per Request: {total_tokens['total_tokens'] / max(1, total_tokens['successful_requests']):.1f}")
     print("="*50)
-
 
 if __name__ == "__main__":
     print("Testing TOC Agent with Token Counting...")

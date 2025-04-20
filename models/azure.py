@@ -11,6 +11,7 @@ AZURE_OPENAI_API_KEY = "8df98ecfe8db47bd8ff11e0b7033a273"  # Hard-coded from you
 AZURE_OPENAI_ENDPOINT = "https://engineering-and-archaeology.openai.azure.com/"
 
 # Hard-coded deployment names and API versions
+GPT4O_DEPLOYMENT = "gpt-4o"
 GPT4_MINI_DEPLOYMENT = "gpt-4o-mini"
 GPT4_API_VERSION = "2024-05-01-preview"
 O3_MINI_DEPLOYMENT = "o3-mini"
@@ -28,7 +29,20 @@ class GPT4Mini:
             api_key=AZURE_OPENAI_API_KEY,
             azure_deployment=GPT4_MINI_DEPLOYMENT,
             api_version=GPT4_API_VERSION,
-            temperature=0
+            temperature=0.3
+        )
+    
+class GPT4o:
+    """Class to load GPT-4o model for TOC and script generation."""
+    
+    @staticmethod
+    def get_instance():
+        return AzureChatOpenAI(
+            azure_endpoint=AZURE_OPENAI_ENDPOINT,
+            api_key=AZURE_OPENAI_API_KEY,
+            azure_deployment=GPT4O_DEPLOYMENT,
+            api_version=GPT4_API_VERSION,
+            temperature=0.1
         )
 
 class O3Mini:
@@ -40,8 +54,7 @@ class O3Mini:
             azure_endpoint=AZURE_OPENAI_ENDPOINT,
             api_key=AZURE_OPENAI_API_KEY,
             azure_deployment=O3_MINI_DEPLOYMENT,
-            api_version=O3_API_VERSION,
-            temperature=0
+            api_version=O3_API_VERSION
         )
 
 class Embedding:

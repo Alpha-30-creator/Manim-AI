@@ -19,7 +19,7 @@ class SubTopic(BaseModel):
     estimated_duration: float = Field(description="Estimated video duration in minutes")
     difficulty: Literal["beginner", "intermediate", "advanced"] = Field(description="Difficulty level of the subtopic")
     prerequisites: List[str] = Field(default_factory=list, description="List of prerequisite subtopics that should be watched before this one")
-    key_points: List[str] = Field(description="Key points to cover in this subtopic")
+    description: str = Field(description="Detailed description of the mathematical content to be covered, including key concepts, equations, properties, and examples")
     
     @classmethod
     @validator('estimated_duration')
@@ -100,12 +100,19 @@ IMPORTANT GUIDELINES:
    - NEVER exceed 5 minutes for any subtopic
    - NEVER use the same duration for all subtopics
 3. Design subtopic content specifically to fit within the estimated time:
-   - More complex topics should have fewer key points to fit time constraints
-   - Simpler topics can cover more key points in less time
+   - More complex topics should have more concise descriptions to fit time constraints
+   - Simpler topics can cover more detailed explanations in less time
    - Carefully consider what can realistically be taught in the allotted minutes
 4. Limit to a maximum of {max_subtopics} subtopics, but use fewer if the topic doesn't need that many
 5. For each subtopic, include:
-   - Key points to cover (3-5 points max, ensuring they can be taught in the estimated time)
+   - A detailed description covering:
+     * Key mathematical concepts and definitions
+     * Essential equations and formulas
+     * Mathematical properties and theorems
+     * Step-by-step procedures for calculations
+     * Relationships to other mathematical concepts
+     * Common misconceptions or pitfalls
+     * Example problems and solutions
    - Prerequisites from earlier subtopics
    - Difficulty level (beginner/intermediate/advanced)
    - Realistic estimated duration in MINUTES based on content complexity
@@ -163,7 +170,7 @@ Remember that each subtopic must be teachable within 1-5 minutes, with the speci
                     },
                     "subtopics": {
                         "type": "array",
-                        "description": "List of subtopics in proper learning sequence. Each subtopic must be carefully designed to fit within its specified time duration (1-5 minutes). The content scope, number of key points, and complexity should all be proportional to the time allocated.",
+                        "description": "List of subtopics in proper learning sequence. Each subtopic must be carefully designed to fit within its specified time duration (1-5 minutes). The content scope, detail level, and complexity should all be proportional to the time allocated.",
                         "items": {
                             "type": "object",
                             "properties": {
@@ -177,7 +184,7 @@ Remember that each subtopic must be teachable within 1-5 minutes, with the speci
                                 },
                                 "estimated_duration": {
                                     "type": "number",
-                                    "description": "Estimated video duration in minutes - this is a critical factor in designing the subtopic content. Duration must be realistic for teaching the key points and should vary based on complexity (1-2 min for simple topics, 2-3 min for moderate, 3-5 min for complex).",
+                                    "description": "Estimated video duration in minutes - this is a critical factor in designing the subtopic content. Duration must be realistic for teaching the content and should vary based on complexity (1-2 min for simple topics, 2-3 min for moderate, 3-5 min for complex).",
                                     "minimum": 1.0,
                                     "maximum": 5.0
                                 },
@@ -193,15 +200,12 @@ Remember that each subtopic must be teachable within 1-5 minutes, with the speci
                                     },
                                     "description": "List of prerequisite subtopics that should be watched before this one"
                                 },
-                                "key_points": {
-                                    "type": "array",
-                                    "items": {
-                                        "type": "string"
-                                    },
-                                    "description": "Key points to cover in this subtopic"
+                                "description": {
+                                    "type": "string",
+                                    "description": "Detailed description of the mathematical content to be covered, including key concepts, equations, properties, and examples"
                                 }
                             },
-                            "required": ["title", "order_index", "estimated_duration", "difficulty", "key_points"]
+                            "required": ["title", "order_index", "estimated_duration", "difficulty", "description"]
                         }
                     }
                 },

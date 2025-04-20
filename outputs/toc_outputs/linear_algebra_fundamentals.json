@@ -1,7 +1,7 @@
 {
   "main_topic": "Linear Algebra Fundamentals: Vectors, Matrices, Transformations, and Eigenvalues",
-  "description": "An introductory series on the fundamental concepts of linear algebra, focusing on vectors, matrices, transformations, and eigenvalues, tailored for high school students.",
-  "total_subtopics": 8,
+  "description": "This series of educational videos will introduce high school students to the foundational concepts of linear algebra, including vectors, matrices, transformations, and eigenvalues. Each topic will build upon the previous one to ensure a comprehensive understanding of linear algebra principles.",
+  "total_subtopics": 7,
   "difficulty": "beginner",
   "audience": "high school students",
   "subtopics": [
@@ -11,25 +11,17 @@
       "estimated_duration": 2.0,
       "difficulty": "beginner",
       "prerequisites": [],
-      "key_points": [
-        "Definition of a vector",
-        "Representation of vectors in 2D and 3D",
-        "Types of vectors: zero vector, unit vector"
-      ]
+      "description": "This subtopic introduces the concept of vectors, including definitions, notation, and graphical representation. Key concepts include vector magnitude and direction, as well as the difference between scalar and vector quantities. Example problems will illustrate how to calculate vector lengths and represent vectors in a coordinate system."
     },
     {
-      "title": "Vector Operations",
+      "title": "Vector Operations: Addition and Scalar Multiplication",
       "order_index": 2,
       "estimated_duration": 3.0,
       "difficulty": "beginner",
       "prerequisites": [
         "Introduction to Vectors"
       ],
-      "key_points": [
-        "Addition and subtraction of vectors",
-        "Scalar multiplication",
-        "Dot product of vectors"
-      ]
+      "description": "This subtopic covers basic operations involving vectors, specifically vector addition and scalar multiplication. Students will learn the geometric interpretation of these operations and how to perform them algebraically. Essential properties, such as commutativity and associativity of vector addition, will be discussed, along with example problems."
     },
     {
       "title": "Introduction to Matrices",
@@ -37,85 +29,49 @@
       "estimated_duration": 2.0,
       "difficulty": "beginner",
       "prerequisites": [
-        "Introduction to Vectors"
+        "Vector Operations: Addition and Scalar Multiplication"
       ],
-      "key_points": [
-        "Definition of a matrix",
-        "Types of matrices: row, column, square",
-        "Matrix notation and dimensions"
-      ]
+      "description": "This subtopic introduces matrices, including definitions, notation, and types of matrices (e.g., row, column, square). The importance of matrices in linear algebra and their applications will be highlighted. Students will also learn how to represent systems of equations using matrices."
     },
     {
-      "title": "Matrix Operations",
+      "title": "Matrix Operations: Addition, Subtraction, and Scalar Multiplication",
       "order_index": 4,
       "estimated_duration": 3.0,
-      "difficulty": "intermediate",
+      "difficulty": "beginner",
       "prerequisites": [
         "Introduction to Matrices"
       ],
-      "key_points": [
-        "Addition and subtraction of matrices",
-        "Scalar multiplication of matrices",
-        "Matrix multiplication basics"
-      ]
+      "description": "This subtopic focuses on basic operations with matrices, including addition, subtraction, and scalar multiplication. Students will learn the rules for these operations, including dimensional compatibility. Example problems will provide practice in performing these operations."
     },
     {
-      "title": "Determinants and Inverses",
+      "title": "Matrix Multiplication and Its Properties",
       "order_index": 5,
       "estimated_duration": 4.0,
       "difficulty": "intermediate",
       "prerequisites": [
-        "Matrix Operations"
+        "Matrix Operations: Addition, Subtraction, and Scalar Multiplication"
       ],
-      "key_points": [
-        "Definition of the determinant",
-        "Calculating the determinant of 2x2 and 3x3 matrices",
-        "Finding the inverse of a matrix"
-      ]
+      "description": "This subtopic delves into matrix multiplication, including the process of multiplying matrices and the conditions for multiplication to be defined. Key properties of matrix multiplication, such as associativity and distributivity, will be discussed. Example problems will illustrate how to multiply matrices and apply the properties."
     },
     {
-      "title": "Linear Transformations",
+      "title": "Linear Transformations and Their Matrix Representation",
       "order_index": 6,
       "estimated_duration": 5.0,
       "difficulty": "intermediate",
       "prerequisites": [
-        "Matrix Operations",
-        "Determinants and Inverses"
+        "Matrix Multiplication and Its Properties"
       ],
-      "key_points": [
-        "Definition of linear transformations",
-        "Matrix representation of transformations",
-        "Examples of transformations in geometry"
-      ]
+      "description": "This subtopic introduces linear transformations, explaining how they relate to matrices. Students will learn how to represent linear transformations using matrices and how to apply transformations to vectors. The geometric interpretation of transformations will also be explored, with example problems demonstrating the concepts."
     },
     {
       "title": "Introduction to Eigenvalues and Eigenvectors",
       "order_index": 7,
-      "estimated_duration": 4.0,
+      "estimated_duration": 5.0,
       "difficulty": "advanced",
       "prerequisites": [
-        "Determinants and Inverses",
-        "Linear Transformations"
+        "Linear Transformations and Their Matrix Representation"
       ],
-      "key_points": [
-        "Definition of eigenvalues and eigenvectors",
-        "Characteristic polynomial",
-        "Finding eigenvalues and eigenvectors for 2x2 matrices"
-      ]
-    },
-    {
-      "title": "Applications of Eigenvalues",
-      "order_index": 8,
-      "estimated_duration": 3.0,
-      "difficulty": "advanced",
-      "prerequisites": [
-        "Introduction to Eigenvalues and Eigenvectors"
-      ],
-      "key_points": [
-        "Real-world applications of eigenvalues",
-        "Role in systems of differential equations",
-        "Importance in data science and machine learning"
-      ]
+      "description": "This subtopic covers the concepts of eigenvalues and eigenvectors, including definitions and significance in linear algebra. Students will learn how to find eigenvalues and eigenvectors of a matrix, along with their applications in various fields. Example problems will guide students through the process of calculating eigenvalues and eigenvectors."
     }
   ]
 }
