@@ -27,29 +27,29 @@ manim_ce_vectorstore = PineconeVectorStore(index=manim_ce_index, embedding=embed
 manim_voiceover_vectorstore = PineconeVectorStore(index=manim_voiceover_index, embedding=embedding_model)
 
 toc_agent = TOCAgent(
-    llm=gpt4_mini,
+    llm=deepseek_v3,
     max_subtopics=8,  # Reasonable limit for most topics
     target_video_duration=2.5  # Target of 2-5 minutes per subtopic
 )
 
 code_agent = CodeAgent(
-    llm=o3_mini
+    llm=deepseek_v3
 )
 
 debug_agent = DebugAgent(
-    llm=o3_mini
+    llm=deepseek_v3
 )
 
 question_generator = QuestionGeneratorAgent(
-    llm=gpt4_mini
+    llm=deepseek_v3
 )
 
 error_analyzer = ErrorAnalyzerAgent(
-    llm=gpt4_mini
+    llm=deepseek_v3
 )
 
 review_agent = ReviewAgent(
-    llm=o3_mini
+    llm=deepseek_v3
 )
 
 document_retriever = DocumentRetriever(manim_ce_vectorstore, manim_voiceover_vectorstore)

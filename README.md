@@ -132,7 +132,3 @@ See `tests/main_test.py` for a complete example of the end-to-end process, inclu
 
 The system uses Pinecone vector stores for Manim and Manim-Voiceover documentation. The `vectorizer` directory contains tools for processing and uploading documentation.
 
-## Acknowledgments
-
-- [Manim Community](https://www.manim.community/) for the Manim animation engine
-- [Manim-Voiceover](https://github.com/ManimCommunity/manim-voiceover) for the voiceover integration

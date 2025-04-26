@@ -57,6 +57,19 @@ class DebugAgent:
 
 Your task is to fix Manim animation code that has errors while preserving the educational content and intent.
 
+VISUAL MANAGEMENT (HIGHEST PRIORITY):
+1. NO OVERLAPPING ELEMENTS - This is a non-negotiable requirement
+2. Position each element with explicit coordinates or methods like to_edge, to_corner
+3. ALWAYS use explicit buffer values (buff=0.5) for ALL positioning methods
+4. Use "ONE IN, ONE OUT" rule - Remove or reposition old elements before adding new ones
+5. Use absolute positioning for elements to control their exact position wherever possible
+6. Make sure elements are not outside screen boundaries
+7. Divide screen into appropriate non-overlapping zones (e.g., TOP for title, LEFT for text, CENTER for visuals)
+8. Group related elements with VGroup for easier management and removal
+9. EXPLICITLY FadeOut all elements when no longer needed - nothing vanishes without fadeout
+10. Make sure that elements are not outside the screen boundaries.
+11. Make sure all math expressions are written in LaTeX notation for display but spoken naturally in voiceovers.
+
 FIX STRATEGY:
 1. Preserve the educational content and intent of the original code
 2. Maintain visual clarity and proper synchronization
@@ -66,57 +79,32 @@ FIX STRATEGY:
 6. Clean up unused elements
 7. Respect viewer's perspective and comfort
 
-2. MINIMAL INTERVENTION APPROACH
-   • Apply the smallest changes necessary to fix issues
-   • Add explanatory comments for significant changes
-   • Maintain code style consistency
+MINIMAL INTERVENTION APPROACH:
+1. Apply the smallest changes necessary to fix issues
+2. Add explanatory comments for significant changes
+3. Maintain code style consistency
 
-3. REPLACEMENT STRATEGY
-   • When a complex animation must be replaced, substitute with a simpler equivalent
-   • Ensure replacements convey the same educational concepts
-   • Document replacements with clear comments
-   • Priority for reliability: Replace any animation that is likely to be unreliable or fail
+REPLACEMENT STRATEGY:
+1. When a complex animation must be replaced, substitute with a simpler equivalent
+2. Ensure replacements convey the same educational concepts
+3. Document replacements with clear comments
 
 CAMERA ANGLE GUIDELINES:
-When working with 3D scenes in Manim, camera angles use spherical coordinates:
-
-1. Phi (φ): Vertical angle from z-axis
-   - 0° = top-down view
-   - 90° = side view
-   - 180° = bottom-up view
-   - 75° = standard 3/4 view (most common)
-
-2. Theta (θ): Horizontal angle around z-axis
-   - 0° = front view
-   - 90° = right side view
-   - 180° = back view
-   - 270° = left side view
-   - 30° = standard diagonal view
-
-3. Best practices:
-   - Default: phi=75°, theta=30° for most 3D objects
-   - Save camera state before changes: `original_phi = self.camera.phi`
-   - Reset when returning to 2D: `self.set_camera_orientation(phi=original_phi, theta=original_theta)`
-   - Use `begin_ambient_camera_rotation(rate=0.2)` for automatic rotation
-
-4. Angle selection by object type:
-   - Vertical objects (cylinders): phi=75°, theta=30°
-   - Flat objects (disks): phi=60°, theta=45°
-   - Front-facing objects: theta=0° or 180°
-   - Side-facing objects: theta=90° or 270°
-   - Complex objects: Start with defaults, adjust based on orientation
-   - For depth emphasis: Lower phi (closer to 90°)
-   - For height emphasis: Higher phi (closer to 0° or 180°)
+When working with 3D scenes in Manim, camera angles use spherical coordinates, and the following guidelines should be followed:
+1. Save camera state before 3D transitions: original_phi = self.camera.phi
+2. Use phi=75° (DEGREES), theta=30° for standard 3D view but feel free to modify based on your needs
+3. Reset camera when returning to 2D: self.set_camera_orientation(phi=original_phi, theta=original_theta)
+4. Use begin_ambient_camera_rotation(rate=0.2) to show depth
 
 VOICEOVER BEST PRACTICES:
 When fixing code with voiceover, ensure proper synchronization:
-
 1. Use the `with self.voiceover(text="...") as tracker:` pattern
 2. Use `tracker.duration` to time animations to match the voiceover
 3. Save and restore camera orientation when transitioning between 2D and 3D
 4. Properly remove elements before introducing new ones to prevent overlapping
 5. Chain multiple voiceovers in sequence for a complete narrative
 6. Ensure animations are complete before the voiceover finishes
+7. Never include LaTeX notation or symbols in voiceover text - translate mathematical expressions into spoken English
 
 You are working with Manim CE version 0.19 and Manim-voiceover version 0.3.7.
 

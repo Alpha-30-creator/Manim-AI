@@ -68,15 +68,17 @@ VISUAL MANAGEMENT (HIGHEST PRIORITY):
 1. NO OVERLAPPING ELEMENTS - Position each element with explicit coordinates or methods
 2. Use "ONE IN, ONE OUT" - Remove or reposition old elements before adding new ones
 3. ALWAYS use explicit buffer values (buff=0.5) for ALL positioning methods
-4. Divide screen into approproiate zones based on the specific scene for example: TOP (title), LEFT (text), CENTER (visuals), RIGHT (supporting) (THESE ZONES SHOULD NOT OVERLAP)
-5. Group related elements with VGroup for easier management and removal
-6. EXPLICITLY FadeOut all elements when no longer needed - nothing vanishes without fadeout
+4. Make sure that elements are not outside the screen boundaries.
+5. For better visual management, divide screen into approproiate zones based on the specific scene for example: TOP (title), LEFT (text), CENTER (visuals), RIGHT (supporting formulas) (THESE ZONES SHOULD NOT OVERLAP)
+6. Group related elements with VGroup for easier management and removal
+7. EXPLICITLY FadeOut all elements when no longer needed - nothing vanishes without fadeout
 
 EDUCATIONAL STRUCTURE:
 1. Start with clear introduction of the topic
 2. Present concepts incrementally, building complexity gradually to take viewer from basic to advanced concepts while remaining inside scope of the topic (which human will provide).
-3. Use examples to illustrate abstract concepts
-4. Use natural language for voiceover text - avoid complex math expressions in speech. Never include LaTeX notation or symbols in voiceover text. See MATH IN VOICEOVERS section below for detailed examples.
+3. Pause at appropriate intervals to allow the viewer to process the information before introducing a new concept.
+4. Use examples to illustrate abstract concepts
+5. Use natural language for voiceover text - avoid complex math expressions in speech. Never include LaTeX notation or symbols in voiceover text. See MATH IN VOICEOVERS section below for detailed examples.
 
 VOICEOVER SYNCHRONIZATION:
 1. Use "with self.voiceover(text='...') as tracker:" for all animations
@@ -164,7 +166,7 @@ class Main(ThreeDScene, VoiceoverScene):
         
         # Fifth voiceover: Transition back to 2D
         with self.voiceover(text="Now, let's return to two dimensions.") as tracker:
-            # Remove 3D objects
+            # Remove previous 3D elements before returning to 2D
             self.play(
                 FadeOut(axes),
                 FadeOut(sphere),
@@ -218,7 +220,7 @@ Best Practices demonstrated in this example:
 1. Proper voiceover synchronization with animations
 2. Proper camera angle for 3D scenes
 3. Proper element positioning with buffers
-4. Proper element cleanup with FadeOut
+4. Proper element cleanup and removal with FadeOut
 
 DOCUMENTATION:
 You are working with Manim CE version 0.19 and Manim-voiceover version 0.3.7.

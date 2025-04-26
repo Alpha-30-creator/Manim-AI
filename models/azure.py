@@ -7,17 +7,17 @@ from langchain_openai import AzureChatOpenAI, AzureOpenAIEmbeddings
 load_dotenv()
 
 # Hard-coded Azure OpenAI Configuration - no comments, no whitespace issues
-AZURE_OPENAI_API_KEY = "8df98ecfe8db47bd8ff11e0b7033a273"  # Hard-coded from your .env
-AZURE_OPENAI_ENDPOINT = "https://engineering-and-archaeology.openai.azure.com/"
+AZURE_OPENAI_API_KEY = os.getenv("AZURE_OPENAI_API_KEY")
+AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")
 
 # Hard-coded deployment names and API versions
-GPT4O_DEPLOYMENT = "gpt-4o"
-GPT4_MINI_DEPLOYMENT = "gpt-4o-mini"
-GPT4_API_VERSION = "2024-05-01-preview"
-O3_MINI_DEPLOYMENT = "o3-mini"
-O3_API_VERSION = "2024-12-01-preview"
-EMBEDDING_DEPLOYMENT = "APSAP-test-text-embedding-3-large"
-EMBEDDING_API_VERSION = "2024-12-01-preview"
+GPT4O_DEPLOYMENT = os.getenv("AZURE_GPT4_DEPLOYMENT")
+GPT4_MINI_DEPLOYMENT = os.getenv("AZURE_GPT4_MINI_DEPLOYMENT")
+GPT4_API_VERSION = os.getenv("AZURE_GPT4_API_VERSION")
+O3_MINI_DEPLOYMENT = os.getenv("AZURE_O3_MINI_DEPLOYMENT")
+O3_API_VERSION = os.getenv("AZURE_O3_API_VERSION")
+EMBEDDING_DEPLOYMENT = os.getenv("AZURE_EMBEDDING_DEPLOYMENT")
+EMBEDDING_API_VERSION = os.getenv("AZURE_EMBEDDING_API_VERSION")
 
 class GPT4Mini:
     """Class to load GPT-4 Mini model for TOC and script generation."""

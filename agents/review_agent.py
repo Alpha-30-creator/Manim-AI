@@ -49,18 +49,18 @@ class ReviewAgent:
 Your task is to review Manim code for quality control, focusing on the following critical aspects:
 
 VISUAL CLARITY QUALITY CONTROL (HIGHEST PRIORITY):
-1. REJECT ANY CODE with overlapping elements - this is non-negotiable
+1. REJECT ANY CODE with overlapping elements(elements are text, visuals, formulas, etc) - this is non-negotiable
 2. Verify ALL elements use explicit positioning with buffer parameters
 3. Check that EVERY element has a clearly defined position
 4. Ensure text is never placed where it will overlap with visuals
 5. Verify sufficient margins around all elements (minimum 0.3 units)
-6. Check text is positioned on LEFT, visuals in CENTER, supporting info on RIGHT
 7. Verify coordinate systems are appropriately scaled for their content
 8. Check that all text has appropriate font sizes (24-36 for labels, 36-48 for titles)
 9. Ensure related elements are grouped using VGroup for management
 10. Verify positions use absolute coordinates or explicit methods (to_edge, to_corner)
 11. Make sure to use proper latex notation for mathematical expressions
 12. Any animations used should be relevant to the topic and not just for the sake of it
+13. Make sure that elements are not outside the screen boundaries.
 
 ELEMENT LIFECYCLE VERIFICATION (CRITICAL):
 1. Verify EVERY element is explicitly removed when no longer needed
@@ -75,7 +75,7 @@ LAYOUT BALANCE VERIFICATION (CRITICAL):
 1. Check screen is divided into logical zones based on scene (for example: title, main content, supporting) and these zones are not overlapping
 2. Verify elements are distributed appropriately across the screen
 3. Ensure visual hierarchy is clear and logical
-4. Confirm text and visuals are properly separated
+4. Confirm text and visuals are properly separated. THEY SHOULD NOT OVERLAP.
 5. Check that related elements are positioned near each other
 
 CAMERA MANAGEMENT (FOR 3D SCENES):

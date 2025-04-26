@@ -18,7 +18,6 @@ import subprocess
 import sys
 from pathlib import Path
 from datetime import datetime
-from langchain_community.callbacks.manager import get_openai_callback
 
 from agents import (
     code_agent,
@@ -272,7 +271,7 @@ def main():
         return
     
     # Select a subtopic (for testing, we'll use the first one)
-    subtopic = toc_data["subtopics"][6]
+    subtopic = toc_data["subtopics"][0]
     print(f"Selected subtopic: {subtopic['title']}")
     
     # Create execution log
@@ -281,220 +280,207 @@ def main():
         "toc_path": str(TOC_PATH),
         "subtopic": subtopic["title"],
         "debug_attempts": [],
-        "token_usage": {},
         "final_result": "not_started"
     }
     
     try:
-        # Start tracking token usage
-        with get_openai_callback() as cb:
-            # STEP 1: Generate initial code
-            print("\n📝 STEP 1: Generating Manim code from subtopic...")
-            start_time = time.time()
+        # STEP 1: Generate initial code
+        print("\n📝 STEP 1: Generating Manim code from subtopic...")
+        start_time = time.time()
+        
+        # Generate questions for documentation
+        questions_response = question_generator.generate_questions(
+            topic=subtopic["title"],
+            topic_description=subtopic["description"],
+            duration=subtopic["estimated_duration"]
+        )
+        
+        # Extract the questions list from the response
+        questions = questions_response["questions"]
+        print(f"Generated {len(questions)} questions for documentation")
+        
+        # Retrieve relevant documentation
+        documentation = document_retriever.retrieve_docs(questions)
+        print("Retrieved relevant documentation")
+        
+        # Generate animation code with documentation context
+        animation_code = code_agent.generate_animation(
+            topic=subtopic["title"],
+            topic_description=subtopic["description"],
+            duration=subtopic["estimated_duration"],
+            relevant_docs=documentation
+        )
+        generation_time = time.time() - start_time
+        
+        execution_log["generation_time"] = generation_time
+        execution_log["questions_generated"] = len(questions)
+        
+        print(f"✅ Code generated in {generation_time:.2f} seconds")
+        
+        # Save the generated code
+        code_file = save_code_to_file(animation_code, ORIGINAL_CODE_FILE)
+        
+        # STEP 2: Review the generated code
+        print("\n🔍 STEP 2: Reviewing generated code...")
+        review_start_time = time.time()
+        
+        # Read the generated code
+        try:
+            with open(code_file, "r", encoding="utf-8") as f:
+                code_text = f.read()
+        except Exception as e:
+            print(f"❌ Failed to read code file: {str(e)}")
+            execution_log["final_result"] = "file_read_error"
+            log_execution_summary(execution_log)
+            return
+        
+        # Review the code
+        review_result = review_agent.review_animation(
+            original_code=code_text,
+            topic=subtopic["title"],
+            topic_description=subtopic["description"],
+            duration=subtopic["estimated_duration"],
+            relevant_docs=documentation
+        )
+        review_time = time.time() - review_start_time
+        
+        # Log review time
+        execution_log["review_time"] = review_time
+        
+        print(f"✅ Code review completed in {review_time:.2f} seconds")
+        
+        # Save the reviewed code
+        reviewed_code_file = save_code_to_file(review_result, REVIEWED_CODE_FILE)
+        
+        # STEP 3: Run the reviewed code
+        print("\n🚀 STEP 3: Running reviewed code...")
+        result = run_manim_code(reviewed_code_file)
+        
+        # Check if the run was successful
+        if result["success"]:
+            print("✅ Reviewed code executed successfully! No debugging needed.")
+            execution_log["final_result"] = "review_success"
             
-            # Generate questions for documentation
-            questions_response = question_generator.generate_questions(
-                topic=subtopic["title"],
-                topic_description=subtopic["description"],
-                duration=subtopic["estimated_duration"]
-            )
+            # Print the run command for reference
+            run_command = MANIM_COMMAND_TEMPLATE.format(file=reviewed_code_file)
+            print(f"\n📋 Run command: {run_command}")
+        else:
+            print("❌ Reviewed code execution failed. Starting debug process.")
             
-            # Extract the questions list from the response
-            questions = questions_response["questions"]
-            print(f"Generated {len(questions)} questions for documentation")
+            # Save the error log
+            error_log = save_error_log(result["stderr"], 0)
             
-            # Retrieve relevant documentation
-            documentation = document_retriever.retrieve_docs(questions)
-            print("Retrieved relevant documentation")
-            
-            # Generate animation code with documentation context
-            animation_code = code_agent.generate_animation(
-                topic=subtopic["title"],
-                topic_description=subtopic["description"],
-                duration=subtopic["estimated_duration"],
-                relevant_docs=documentation
-            )
-            generation_time = time.time() - start_time
-            
-            execution_log["generation_time"] = generation_time
-            execution_log["questions_generated"] = len(questions)
-            
-            print(f"✅ Code generated in {generation_time:.2f} seconds")
-            
-            # Save the generated code
-            code_file = save_code_to_file(animation_code, ORIGINAL_CODE_FILE)
-            
-            # STEP 2: Review the generated code
-            print("\n🔍 STEP 2: Reviewing generated code...")
-            review_start_time = time.time()
-            
-            # Read the generated code
+            # Initialize debugging variables
+            debug_attempt = 0
+            current_code_file = reviewed_code_file
             try:
-                with open(code_file, "r", encoding="utf-8") as f:
-                    code_text = f.read()
+                with open(reviewed_code_file, "r", encoding="utf-8") as f:
+                    current_code_text = f.read()
             except Exception as e:
                 print(f"❌ Failed to read code file: {str(e)}")
                 execution_log["final_result"] = "file_read_error"
                 log_execution_summary(execution_log)
                 return
             
-            # Review the code
-            review_result = review_agent.review_animation(
-                original_code=code_text,
-                topic=subtopic["title"],
-                topic_description=subtopic["description"],
-                duration=subtopic["estimated_duration"],
-                relevant_docs=documentation
-            )
-            review_time = time.time() - review_start_time
+            final_success = False
             
-            # Log review time
-            execution_log["review_time"] = review_time
-            
-            print(f"✅ Code review completed in {review_time:.2f} seconds")
-            
-            # Save the reviewed code
-            reviewed_code_file = save_code_to_file(review_result, REVIEWED_CODE_FILE)
-            
-            # STEP 3: Run the reviewed code
-            print("\n🚀 STEP 3: Running reviewed code...")
-            result = run_manim_code(reviewed_code_file)
-            
-            # Check if the run was successful
-            if result["success"]:
-                print("✅ Reviewed code executed successfully! No debugging needed.")
-                execution_log["final_result"] = "review_success"
+            # STEP 4-5: Debug loop
+            while debug_attempt < MAX_DEBUG_ATTEMPTS:
+                debug_attempt += 1
+                print(f"\n🔧 Debug Attempt {debug_attempt}/{MAX_DEBUG_ATTEMPTS}...")
                 
-                # Print the run command for reference
-                run_command = MANIM_COMMAND_TEMPLATE.format(file=reviewed_code_file)
-                print(f"\n📋 Run command: {run_command}")
-            else:
-                print("❌ Reviewed code execution failed. Starting debug process.")
-                
-                # Save the error log
-                error_log = save_error_log(result["stderr"], 0)
-                
-                # Initialize debugging variables
-                debug_attempt = 0
-                current_code_file = reviewed_code_file
-                try:
-                    with open(reviewed_code_file, "r", encoding="utf-8") as f:
-                        current_code_text = f.read()
-                except Exception as e:
-                    print(f"❌ Failed to read code file: {str(e)}")
-                    execution_log["final_result"] = "file_read_error"
-                    log_execution_summary(execution_log)
-                    return
-                
-                final_success = False
-                
-                # STEP 4-5: Debug loop
-                while debug_attempt < MAX_DEBUG_ATTEMPTS:
-                    debug_attempt += 1
-                    print(f"\n🔧 Debug Attempt {debug_attempt}/{MAX_DEBUG_ATTEMPTS}...")
-                    
-                    # Skip debugging if timeout occurred (to save API calls)
-                    if result["timeout"]:
-                        print("⚠️ Skipping debugging due to timeout - likely a resource issue, not a code error")
-                        execution_log["debug_attempts"].append({
-                            "attempt": debug_attempt,
-                            "result": "timeout",
-                            "error": result["stderr"]
-                        })
-                        execution_log["final_result"] = "timeout"
-                        break
-                    
-                    # Extract relevant error information
-                    filtered_error = extract_relevant_error(result["stderr"])
-                    
-                    # Save both full and filtered error logs
-                    error_log = save_error_log(result["stderr"], debug_attempt)
-                    filtered_log = save_error_log(filtered_error, debug_attempt, filtered=True)
-                    
-                    # Analyze the error using filtered error log
-                    error_analysis = error_analyzer.analyze_errors(
-                        original_code=current_code_text,
-                        error_log=filtered_error,
-                        original_script=json.dumps({
-                            "topic": subtopic["title"],
-                            "key_points": subtopic["description"],
-                            "duration": subtopic["estimated_duration"]
-                        })
-                    )
-                    print("✅ Error analysis completed")
-                    
-                    # Extract the questions list directly from the error analysis
-                    error_questions = error_analysis["questions"]
-                    print(f"Generated {len(error_questions)} questions for error resolution")
-                    
-                    # Retrieve relevant documentation for error
-                    error_documentation = document_retriever.retrieve_docs(error_questions)
-                    print("Retrieved error-specific documentation")
-                    
-                    # Attempt to fix the code using filtered error log
-                    fixed_code = debug_agent.fix_animation(
-                        original_code=current_code_text,
-                        error_log=filtered_error,
-                        original_script=json.dumps({
-                            "topic": subtopic["title"],
-                            "key_points": subtopic["description"],
-                            "duration": subtopic["estimated_duration"]
-                        }),
-                        error_analysis=error_analysis["error_summary"],
-                        relevant_docs=error_documentation
-                    )
-                    
-                    # Save the fixed code
-                    debug_code_file = DEBUG_CODE_PREFIX.with_name(f"debug_attempt_{debug_attempt}.py")
-                    save_code_to_file(fixed_code, debug_code_file)
-                    
-                    # Run the fixed code
-                    result = run_manim_code(debug_code_file)
-                    
-                    # Log the debug attempt
-                    debug_log = {
+                # Skip debugging if timeout occurred (to save API calls)
+                if result["timeout"]:
+                    print("⚠️ Skipping debugging due to timeout - likely a resource issue, not a code error")
+                    execution_log["debug_attempts"].append({
                         "attempt": debug_attempt,
-                        "error_analysis": error_analysis["error_summary"],
-                        "questions_generated": len(error_questions),
-                        "success": result["success"]
-                    }
-                    execution_log["debug_attempts"].append(debug_log)
-                    
-                    if result["success"]:
-                        print("✅ Code fixed successfully!")
-                        final_success = True
-                        execution_log["final_result"] = "debug_success"
-                        
-                        # Print the run command for reference
-                        run_command = MANIM_COMMAND_TEMPLATE.format(file=debug_code_file)
-                        print(f"\n📋 Run command: {run_command}")
-                        break
-                    else:
-                        print("❌ Fix attempt failed. Saving error log...")
-                        save_error_log(result["stderr"], debug_attempt)
-                        current_code_file = debug_code_file
-                        current_code_text = fixed_code
+                        "result": "timeout",
+                        "error": result["stderr"]
+                    })
+                    execution_log["final_result"] = "timeout"
+                    break
                 
-                if not final_success:
-                    print("❌ All debug attempts failed.")
-                    execution_log["final_result"] = "debug_failed"
+                # Extract relevant error information
+                filtered_error = extract_relevant_error(result["stderr"])
+                
+                # Save both full and filtered error logs
+                error_log = save_error_log(result["stderr"], debug_attempt)
+                filtered_log = save_error_log(filtered_error, debug_attempt, filtered=True)
+                
+                # Analyze the error using filtered error log
+                error_analysis = error_analyzer.analyze_errors(
+                    original_code=current_code_text,
+                    error_log=filtered_error,
+                    original_script=json.dumps({
+                        "topic": subtopic["title"],
+                        "key_points": subtopic["description"],
+                        "duration": subtopic["estimated_duration"]
+                    })
+                )
+                print("✅ Error analysis completed")
+                
+                # Extract the questions list directly from the error analysis
+                error_questions = error_analysis["questions"]
+                print(f"Generated {len(error_questions)} questions for error resolution")
+                
+                # Retrieve relevant documentation for error
+                error_documentation = document_retriever.retrieve_docs(error_questions)
+                print("Retrieved error-specific documentation")
+                
+                # Attempt to fix the code using filtered error log
+                fixed_code = debug_agent.fix_animation(
+                    original_code=current_code_text,
+                    error_log=filtered_error,
+                    original_script=json.dumps({
+                        "topic": subtopic["title"],
+                        "key_points": subtopic["description"],
+                        "duration": subtopic["estimated_duration"]
+                    }),
+                    error_analysis=error_analysis["error_summary"],
+                    relevant_docs=error_documentation
+                )
+                
+                # Save the fixed code
+                debug_code_file = DEBUG_CODE_PREFIX.with_name(f"debug_attempt_{debug_attempt}.py")
+                save_code_to_file(fixed_code, debug_code_file)
+                
+                # Run the fixed code
+                result = run_manim_code(debug_code_file)
+                
+                # Log the debug attempt
+                debug_log = {
+                    "attempt": debug_attempt,
+                    "error_analysis": error_analysis["error_summary"],
+                    "questions_generated": len(error_questions),
+                    "success": result["success"]
+                }
+                execution_log["debug_attempts"].append(debug_log)
+                
+                if result["success"]:
+                    print("✅ Code fixed successfully!")
+                    final_success = True
+                    execution_log["final_result"] = "debug_success"
+                    
+                    # Print the run command for reference
+                    run_command = MANIM_COMMAND_TEMPLATE.format(file=debug_code_file)
+                    print(f"\n📋 Run command: {run_command}")
+                    break
+                else:
+                    print("❌ Fix attempt failed. Saving error log...")
+                    save_error_log(result["stderr"], debug_attempt)
+                    current_code_file = debug_code_file
+                    current_code_text = fixed_code
             
-            # Log token usage
-            execution_log["token_usage"] = {
-                "total_tokens": cb.total_tokens,
-                "prompt_tokens": cb.prompt_tokens,
-                "completion_tokens": cb.completion_tokens,
-                "total_cost": cb.total_cost
-            }
-            
-            # Save execution summary
-            log_execution_summary(execution_log)
-            
-            print("\n=== Manim-AI End-to-End Test Complete ===")
-            print(f"Final result: {execution_log['final_result']}")
-            print(f"Total tokens used: {cb.total_tokens}")
-            print(f"Total cost: ${cb.total_cost:.4f}")
-            
+            if not final_success:
+                print("❌ All debug attempts failed.")
+                execution_log["final_result"] = "debug_failed"
+        
+        # Save execution summary
+        log_execution_summary(execution_log)
+        
+        print("\n=== Manim-AI End-to-End Test Complete ===")
+        print(f"Final result: {execution_log['final_result']}")
+        
     except Exception as e:
         print(f"❌ Fatal error in main test: {str(e)}")
         execution_log["final_result"] = "fatal_error"
